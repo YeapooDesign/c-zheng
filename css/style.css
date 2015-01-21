@@ -252,6 +252,7 @@ textarea {
 .article .Gauge_board .gauge_box {
   background: url(../images/xctj.png) no-repeat;
   position: relative;
+  -webkit-background-size: 280px;
   background-size: 280px;
   width: 280px;
   height: 184px;
@@ -259,6 +260,7 @@ textarea {
 }
 .article .Gauge_board .gauge_box .num {
   background: url(../images/round.png) no-repeat;
+  -webkit-background-size: 87px;
   background-size: 87px;
   position: absolute;
   left: 50%;
@@ -303,6 +305,7 @@ textarea {
   left: 20px;
   background-image: url(../images/icon.png);
   background-repeat: no-repeat;
+  -webkit-background-size: 300px;
   background-size: 300px;
   background-position: -44px -1px;
 }
@@ -316,6 +319,8 @@ textarea {
   text-align: center;
   color: #9c9c9c;
   padding: 15px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
   font-size: 14px;
@@ -433,6 +438,7 @@ textarea {
   background: #0da982;
   border-radius: 50%;
   border: 3px solid #fff;
+  -webkit-box-shadow: 0 0 3px #0da982;
   box-shadow: 0 0 3px #0da982;
 }
 .Score a li {
@@ -558,6 +564,8 @@ textarea {
   background: #c93f3c;
   width: 100%;
   padding: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .blows_happy .blows_top .blows_box {
@@ -565,6 +573,8 @@ textarea {
   width: 100%;
   background: #fff3d9;
   border-radius: 5px 5px 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 auto;
 }
@@ -602,6 +612,7 @@ textarea {
 }
 .blows_happy .blows_bottom {
   background: url(../images/blows3.png) no-repeat;
+  -webkit-background-size: 100%;
   background-size: 100%;
   width: 246px;
   height: 40px;
@@ -610,6 +621,7 @@ textarea {
 .blows_happy .button {
   display: block;
   margin: 20px;
+  -webkit-box-shadow: 1px 3px 3px rgba(170, 110, 25, 0.75);
   box-shadow: 1px 3px 3px rgba(170, 110, 25, 0.75);
   background: #ebc03d;
   color: #000;
@@ -625,6 +637,7 @@ textarea {
   border: none;
   padding: 10px 10px 40px;
   background: url(../images/chris_bg.png) no-repeat;
+  -webkit-background-size: cover;
   background-size: cover;
 }
 .christmas .blows_top .blows_box .title {
@@ -694,6 +707,7 @@ textarea {
   background-color: #5dace7;
   background-image: url(../images/icon.png);
   background-repeat: no-repeat;
+  -webkit-background-size: 300px;
   background-size: 300px;
   background-position: 5px 6px;
 }
@@ -745,6 +759,7 @@ textarea {
   background-position: 5px -383px;
 }
 .schedule_box {
+  -webkit-box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.06);
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.06);
   position: relative;
   z-index: 2;
@@ -800,6 +815,8 @@ textarea {
   float: left;
   font-size: 12px;
   height: 72px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
   color: #aeaeae;
@@ -884,6 +901,7 @@ textarea {
   width: 40px;
   height: 40px;
   background: url(../images/pull-icon@2x.png) 0 0 no-repeat;
+  -webkit-background-size: 40px 80px;
   background-size: 40px 80px;
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 250ms;
@@ -970,6 +988,8 @@ textarea {
   height: 40px;
   line-height: 20px;
   width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: none;
 }
@@ -1084,6 +1104,81 @@ textarea {
   line-height: 45px;
   position: relative;
 }
+.voltage_tit {
+  background: #fff;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+.voltage_tit .tit {
+  margin: 0 15px;
+  font-size: 15px;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+}
+.voltage_tit .bb {
+  border-bottom: 1px solid #d8d8d8;
+}
+.voltage_tit span {
+  float: right;
+}
+.voltage_tit b {
+  color: #a2a2a2;
+  font-size: 13px;
+}
+.voltage_watch {
+  background: #fff;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  padding: 0px 15px 15px 15px;
+}
+.voltage_watch .title {
+  font-size: 15px;
+  height: 45px;
+  line-height: 45px;
+}
+.voltage_watch .watch {
+  background: url(../images/scale.png) no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  width: 274px;
+  height: 7px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.voltage_watch .s_mark {
+  background: url(../images/s_mark.png) no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  width: 18px;
+  height: 20px;
+  position: absolute;
+  left: 120px;
+  top: 10px;
+}
+.voltage_watch .value {
+  position: relative;
+  bottom: 30px;
+  left: -8px;
+}
+.voltage_watch .s_figure {
+  color: #cab500;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+.voltage_watch .o_figure {
+  color: #01f0fe;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+.voltage_watch .note {
+  margin-top: 50px;
+  font-size: 12px;
+}
 .Switch {
   width: 60px;
   height: 30px;
@@ -1100,11 +1195,12 @@ textarea {
   content: '';
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
-      transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
   -webkit-transition: all .1s linear 0s;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 0;
@@ -1120,7 +1216,7 @@ textarea {
 .active.Switch::after {
   -webkit-transform: translate(30px, 0px);
   -ms-transform: translate(30px, 0px);
-      transform: translate(30px, 0px);
+  transform: translate(30px, 0px);
 }
 .Collision {
   background: #fff;
@@ -1137,6 +1233,8 @@ textarea {
   padding: 40px 20px;
   position: relative;
   width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .collision_box .collbox {
@@ -1387,6 +1485,8 @@ p {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
   padding-left: 75px;
@@ -1405,6 +1505,8 @@ p {
   padding-right: 40px;
   width: 48%;
   margin-right: 4%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .violating li .t1 span,
@@ -1449,12 +1551,14 @@ p {
   padding: 0 10px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 .violating li .box {
   padding: 0 10px;
   width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .violating input {
@@ -1468,6 +1572,8 @@ p {
   width: 100%;
   height: 36px;
   padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .button2 {
