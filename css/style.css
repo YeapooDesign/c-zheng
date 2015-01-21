@@ -1138,11 +1138,7 @@ textarea {
   line-height: 45px;
 }
 .voltage_watch .watch {
-  background: url(../images/scale.png) no-repeat;
-  -webkit-background-size: 100%;
-  background-size: 100%;
   width: 274px;
-  height: 7px;
   margin: 0 auto;
   position: relative;
   font-size: 13px;
@@ -1159,24 +1155,49 @@ textarea {
   top: 10px;
 }
 .voltage_watch .value {
-  position: relative;
-  bottom: 30px;
-  left: -8px;
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  margin-left: -60px;
+}
+.voltage_watch .value span {
+  color: red;
+}
+.voltage_watch input[type="range"] {
+  -webkit-appearance: none;
+  background: url(../images/scale.png) no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  width: 274px;
+  height: 7px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+.voltage_watch input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  display: block;
+  margin-top: 30px;
+  background: url(../images/s_mark.png) no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  width: 18px;
+  height: 20px;
 }
 .voltage_watch .s_figure {
   color: #cab500;
   position: absolute;
   left: 0px;
-  top: 10px;
+  top: -10px;
 }
 .voltage_watch .o_figure {
   color: #01f0fe;
   position: absolute;
   right: 0px;
-  top: 10px;
+  top: -10px;
 }
 .voltage_watch .note {
-  margin-top: 50px;
+  margin-top: 90px;
   font-size: 12px;
 }
 .Switch {

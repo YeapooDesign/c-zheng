@@ -12,6 +12,7 @@ input:focus { outline: none; }
 body{max-width: 500px; margin: 0 auto;}
 input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 //公共样式
+
 .WH(@W;@H){width:@W;height:@H;}
 	//布局
 	.flex{display: -moz-box;//火狐
@@ -281,12 +282,38 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 	}
 	.voltage_watch{background: #fff;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;padding:0px 15px 15px 15px;
 		.title{font-size: 15px;height: 45px;line-height: 45px;}
-		.watch{background: url(../images/scale.png) no-repeat;background-size:100%;.WH(274px;7px);margin: 0 auto;position: relative;font-size: 13px;margin-top: 15px;}
+		.watch{
+			//background: url(../images/scale.png) no-repeat;
+			// background-size:100%;.WH(274px;7px);
+			width: 274px;
+			margin: 0 auto;position: relative;
+			font-size: 13px;margin-top: 15px;
+		}
 		.s_mark{background: url(../images/s_mark.png) no-repeat;background-size:100%;.WH(18px;20px);position: absolute;left: 120px;top: 10px;}
-		.value{position: relative;bottom: 30px;left: -8px;}
-		.s_figure{color: #cab500;position: absolute;left: 0px;top: 10px;}
-		.o_figure{color: #01f0fe;position: absolute;right: 0px;top: 10px;}
-		.note{margin-top: 50px;font-size: 12px;}
+		.value{position: absolute;left: 50%;top: 40px;margin-left: -60px;
+			span{color: red;}
+		}
+
+		input[type="range"]{
+			-webkit-appearance: none;
+			background: url(../images/scale.png) no-repeat;
+			background-size:100%;.WH(274px;7px);
+			position: absolute;
+			left: 0px;
+			top: 10px;
+		}
+		input[type="range"]::-webkit-slider-thumb{
+			-webkit-appearance: none;
+			display: block;
+			margin-top: 30px;
+			background: url(../images/s_mark.png) no-repeat;
+			background-size:100%;
+			.WH(18px;20px);
+		}
+
+		.s_figure{color: #cab500;position: absolute;left: 0px;top: -10px;}
+		.o_figure{color: #01f0fe;position: absolute;right: 0px;top: -10px;}
+		.note{margin-top: 90px;font-size: 12px;}
 	}
 	.Switch{.WH(60px;30px);-webkit-transition: all .1s ease-in-out 0s;.position(6px;10px;auto;atuo); border:1px solid @ddd;.radius(20px);
 		&::after{ content: '';.translate(0px;0px);-webkit-transition: all .1s linear 0s;.WH(30px;30px);.radius(50%);.shadow(1px 1px 4px rgba(0,0,0,.2));.position(0;auto;auto;0); background: #fff;}

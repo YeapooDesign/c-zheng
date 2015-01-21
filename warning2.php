@@ -20,15 +20,16 @@
             <div class="watch">
                 <div class="s_figure">11V</div>
                 <div class="o_figure">13V</div>
-                <div class="s_mark">
+                <!-- <div class="s_mark">
                     <div class="value">12.8V</div>
-                </div>
+                </div> -->
+                <input type="range" name="points" value="2" min="1" max="20" class="s_mark2"/>
+                <div class="value">报警电压值：<span>12.8V</span></div>
             </div>
-            <div class="note">滑动设置报警电压值</div>
+            <div class="note">*滑动设置报警电压值</div>
         </div>
-    </article>
-    <script type="text/javascript" src="js/zepto.js"></script>
-    <script type="text/javascript" src="js/extend.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
 </body>
+<script type="text/javascript" src="js/zepto.js"></script>
+<!-- <script type="text/javascript" src="js/extend.js"></script> -->
+<script type="text/javascript" src="js/common.js"></script>
 </html>
