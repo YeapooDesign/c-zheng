@@ -66,4 +66,12 @@ $(function(){
         $('#collbox2 li').removeClass('active');
         $(this).addClass('active');
     })
+    //已注册弹出框
+     $('#J_join_btn').on('click',function(){
+        $('#J_join_cons').show();
+        $(this).addClass('disabled').html("已经注册");
+    })
+       $('#J_join_btnoff').on('click',function(){
+        $('#J_join_cons').hide();
+    })
 })

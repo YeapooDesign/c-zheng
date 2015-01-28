@@ -12,10 +12,10 @@
     <!-- 已注册 弹出框 -->
     <div class="wrap" id="J_join_cons">
         <div class="flip_box  tckzoomIn">
-            <div class="return_btn" id="J_join_btnoff"></div>
             <div class="box_cons">
                 <div class="icon_con"></div>
                 <div class="tit">已经注册</div>
+                <div class="bottom_btn" id="J_join_btnoff">关闭</div>
             </div>
         </div>
     </div>    
@@ -46,7 +46,7 @@
                 </li>
             </ul>
             <div class="btn_box mt15">
-                <div class="bottom_btn">注册参加</div>
+                <div class="btn bottom_btn"  id="J_join_btn">注册参加</div>
             </div>
         </div>
     </article>
