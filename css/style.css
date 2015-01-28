@@ -931,6 +931,14 @@ textarea {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
 }
+.bottom_btn {
+  margin: 15px 25px;
+  border-radius: 8px;
+  background: #419af8;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+}
 .withdrawing .title {
   font-size: 16px;
   color: #000;
@@ -939,14 +947,6 @@ textarea {
 }
 .withdrawing .btn_box {
   border-bottom: 1px solid #cacaca;
-}
-.withdrawing .bottom_btn {
-  margin: 15px 25px;
-  border-radius: 8px;
-  background: #419af8;
-  color: #fff;
-  text-align: center;
-  line-height: 45px;
 }
 .withdrawing .Residual {
   padding: 10px 15px 0;
@@ -1139,6 +1139,7 @@ textarea {
 }
 .voltage_watch .watch {
   width: 274px;
+  height: 60px;
   margin: 0 auto;
   position: relative;
   font-size: 13px;
@@ -1162,6 +1163,14 @@ textarea {
 }
 .voltage_watch .value span {
   color: red;
+}
+.voltage_watch .value input {
+  border: 0;
+  max-width: 33px;
+  margin-right: 3px;
+  color: red;
+  text-align: right;
+  opacity: 1;
 }
 .voltage_watch input[type="range"] {
   -webkit-appearance: none;
@@ -1187,17 +1196,17 @@ textarea {
 .voltage_watch .s_figure {
   color: #cab500;
   position: absolute;
-  left: 0px;
+  left: -10px;
   top: -10px;
 }
 .voltage_watch .o_figure {
   color: #01f0fe;
   position: absolute;
-  right: 0px;
+  right: -10px;
   top: -10px;
 }
 .voltage_watch .note {
-  margin-top: 90px;
+  margin-top: 20px;
   font-size: 12px;
 }
 .Switch {
@@ -1872,4 +1881,72 @@ p {
   font-size: 16px;
   text-align: center;
   margin-top: 20px;
+}
+.ui-progressbar-bg {
+  border-radius: 0px;
+  position: relative;
+  -webkit-user-select: none;
+}
+.ui-progressbar-filled {
+  position: absolute;
+  border-radius: 0px;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transition-duration: 0ms;
+  -webkit-user-select: none;
+  pointer-events: none;
+}
+.ui-progressbar-button {
+  position: absolute;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transition-duration: 0ms;
+  -webkit-user-select: none;
+}
+/* 横向样式 */
+.ui-progressbar-h .ui-progressbar-bg {
+  height: 7px;
+}
+.ui-progressbar-h .ui-progressbar-filled {
+  width: 0;
+  height: 100%;
+}
+.ui-progressbar-bg {
+  -webkit-appearance: none;
+  background: url(../images/scale.png) no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  width: 274px;
+  height: 7px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+.ui-progressbar-button {
+  background: url(../images/s_mark.png) no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  width: 18px;
+  height: 20px;
+  position: absolute;
+  top: 20px;
+  margin-top: 17px;
+}
+/* 横向样式 */
+.ui-progressbar-h .ui-progressbar-button {
+  top: -8px;
+  margin-left: -10px;
+}
+.btn-group {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: box;
+  display: flexbox;
+  display: flex;
+}
+.btn-group .bottom_btn {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 50%;
 }
