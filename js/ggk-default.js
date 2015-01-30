@@ -111,10 +111,11 @@ function renderText(str){
 
   //第三行字
   txtCtx.textBaseline = 'top';
-  txtCtx.fillText('挣点',w/2,h/2 + 20);
+  txtCtx.fillText('挣点',w/2,h/2 + 40);
 
   //第二行子，变量
-  txtCtx.font = options.backFont;
+  txtCtx.font = '55px 幼圆';
+  // txtCtx.font = options.backFont;
   txtCtx.textBaseline = 'middle';
   txtCtx.textAlign = 'center';
   txtCtx.fillText(str,w/2,h/2);
