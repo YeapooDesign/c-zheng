@@ -1978,3 +1978,81 @@ p {
   flex: 1;
   width: 50%;
 }
+.blows_default {
+  background: url(../images/blows_image/default_bj.jpg);
+}
+.blows_default .blows_top {
+  position: relative;
+  padding-top: 150px;
+}
+.blows_default .blows_top .gl {
+  background: url(../images/blows_image/default_gl.png);
+  width: 85px;
+  height: 371px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.blows_default .blows_top .gr {
+  background: url(../images/blows_image/default_gr.png);
+  width: 59px;
+  height: 373px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  right: 0px;
+  top: 50px;
+}
+.blows_default .blows_top .logo {
+  background: url(../images/blows_image/default_logo.png);
+  width: 215px;
+  height: 89px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 45px;
+}
+.blows_default .blows_top .blows_bj {
+  background: url(../images/blows_image/default_luck_bj.png);
+  width: 205px;
+  height: 157px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin: 0px auto 0px;
+  position: relative;
+}
+.blows_default .blows_top .blows {
+  width: 183px;
+  height: 134px;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  position: absolute;
+  left: 11px;
+  top: 11px;
+}
+.blows_default .blows_top .button {
+  display: block;
+  margin: 50px 50px 0px 50px;
+  -webkit-box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  color: #bf212c;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.blows_default .default_bottom {
+  background: url(../images/blows_image/default_bottom.png);
+  width: 100%;
+  height: 66px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  bottom: 0px;
+}
