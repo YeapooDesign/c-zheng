@@ -66,4 +66,19 @@ $(function(){
         $('#collbox2 li').removeClass('active');
         $(this).addClass('active');
     })
+    //已注册弹出框
+     $('#J_join_btn').on('click',function(){
+        $('#J_join_cons').show();
+        $(this).addClass('disabled').html("已经注册");
+    })
+       $('#J_join_btnoff').on('click',function(){
+        $('#J_join_cons').hide();
+    })
+    //绑定弹出框
+     $('#J_phone_btn').on('click',function(){
+        $('#J_phone_cons').show();
+    })
+       $('#J_phone_btnoff').on('click',function(){
+        $('#J_phone_cons').hide();
+    })
 })

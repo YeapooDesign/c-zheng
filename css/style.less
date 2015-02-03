@@ -232,10 +232,10 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 #pullUp.flip .pullUpIcon {-webkit-transform:rotate(0deg) translateZ(0);}
 #pullUp.loading .pullUpIcon {background-position:0 100%;-webkit-transform:rotate(0deg) translateZ(0);-webkit-transition-duration:0ms;-webkit-animation-name:loading;-webkit-animation-duration:2s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:linear;}
 //提现
+.bottom_btn{ margin: 15px 25px;border-radius:8px; background:#419af8; color: #fff; text-align: center; line-height: 45px;}
 .withdrawing{
 	.title{ font-size: 16px;color:#000;line-height: 24px;padding:15px;}
 	.btn_box{border-bottom: 1px solid #cacaca;}
-	.bottom_btn{ margin: 15px 25px;border-radius:8px; background:#419af8; color: #fff; text-align: center; line-height: 45px;}
 	.Residual{padding: 10px 15px 0;color:#999;
 		ul{.flex;
 			li{.flex_eq(1;50%);
@@ -251,6 +251,8 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 		span{.position(0;auto;auto;0px);display: block;height: 45px;}
 		&.width_line::after{content: '';position: absolute;left: 0; bottom:0px;width: 100%;height: 1px; background: #ddd;z-index: 1;}
 		.btn{background: #419cf9;.position(7px;-3px;auto;auto);.radius(3px);height: 32px;line-height: 32px;color: #fff;text-align: center;padding:0 15px; }
+		&.newpd{padding-left: 135px;}
+		&.s_arrows::after{content: '';width: 10px;height: 10px;.radius(0);position: absolute;left:auto;right: 0px; top:18px;border-width: 2px 2px 0 0;border-style:solid;border-color:#a1a1a1;.rotate(45deg); background: none;}
 	}
 }
 //邀请码
@@ -286,12 +288,14 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 			//background: url(../images/scale.png) no-repeat;
 			// background-size:100%;.WH(274px;7px);
 			width: 274px;
+			height: 60px;
 			margin: 0 auto;position: relative;
 			font-size: 13px;margin-top: 15px;
 		}
 		.s_mark{background: url(../images/s_mark.png) no-repeat;background-size:100%;.WH(18px;20px);position: absolute;left: 120px;top: 10px;}
 		.value{position: absolute;left: 50%;top: 40px;margin-left: -60px;
 			span{color: red;}
+			input{border: 0;max-width: 33px;margin-right: 3px;color: red;text-align: right;opacity: 1;}
 		}
 
 		input[type="range"]{
@@ -311,9 +315,9 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 			.WH(18px;20px);
 		}
 
-		.s_figure{color: #cab500;position: absolute;left: 0px;top: -10px;}
-		.o_figure{color: #01f0fe;position: absolute;right: 0px;top: -10px;}
-		.note{margin-top: 90px;font-size: 12px;}
+		.s_figure{color: #cab500;position: absolute;left: -10px;top: -10px;}
+		.o_figure{color: #01f0fe;position: absolute;right: -10px;top: -10px;}
+		.note{margin-top: 20px;font-size: 12px;}
 	}
 	.Switch{.WH(60px;30px);-webkit-transition: all .1s ease-in-out 0s;.position(6px;10px;auto;atuo); border:1px solid @ddd;.radius(20px);
 		&::after{ content: '';.translate(0px;0px);-webkit-transition: all .1s linear 0s;.WH(30px;30px);.radius(50%);.shadow(1px 1px 4px rgba(0,0,0,.2));.position(0;auto;auto;0); background: #fff;}
@@ -447,8 +451,141 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 	25%{-moz-transform:rotate(-5deg)}
     75%{-moz-transform:rotate(5deg)}
 }
+
+.tckzoomIn{animation:tckzoomIn 0.6s 0s ease both;}
+@keyframes tckzoomIn {
+  0% {transform: scale3d(.3, .3, .3);}
+  50% {opacity: 1;}
+}
 //公共样式
 .ft15{font-size: 15px;}
 .mt10{margin-top: 10px;}
 .mt15{margin-top: 15px;}
 .clearfix::after{content: '';clear: both;display: block;}
+
+
+//春节补贴页面
+.subsidy{
+	.btn_box{}
+	.tit_con{background: #fff;padding: 0 15px;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;margin-bottom: 15px;}
+	.item{position: relative;padding-bottom: 10px;
+		.title{color: #333;line-height: 40px;}
+		.title2{color: #949494;line-height: 40px;}
+		p{color: #949494;font-size: 14px;margin-bottom: 4px;font-size: 12px; }
+		&.width_line::after{content:'';position: absolute;left: 0; bottom:0px;width: 100%;height: 1px; background: #ddd;z-index: 1;}
+	}
+	.bottom_btn{ margin: 15px 25px;border-radius:8px; background:#419af8; color: #fff; text-align: center; line-height: 45px;}
+}
+
+//补贴列表
+.subsidy_list{margin: 15px 15px 0px 15px;
+	.list_cons{
+		.item{height: 105px;display: flex;margin-bottom: 15px;
+			.left_tit{flex:1;box-flex:1;background: #fff;border-left: 1px solid #ddd;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;padding: 10px;}
+			.right_tit{width: 85px;background: #419cf9;color: #fff;line-height: 105px;font-size: 34px;text-align: center;
+				
+			}
+			&::after{content:'';width: 2px;height: 105px;background: url(../images/blue_round.png) repeat-y;}
+			.time{
+				p{color: #949494;font-size: 14px;margin-bottom: 10px;}
+			}
+			.site{color: #949494;font-size: 14px;}
+		}
+	}
+}
+
+//已注册弹出框
+.wrap{width: 100%;height: 100%;background: rgba(0, 0, 0, 0.6);position: fixed;z-index: 10000;top: 0px;left: 0px;display: none;
+	.return_btn{}
+	.box_cons{background: #fff;margin: 115px auto 0px;border-radius: 6px;width: 255px;padding: 30px 0px 10px 0px;
+		.icon_con{background: url(../images/join_icon.png) no-repeat;width: 49px;height: 49px;background-size: cover;margin: 0 auto;}
+		.tit{color: #333;font-size:16px;text-align: center;margin-top: 20px;margin-bottom: 20px;}
+	}
+}
+//绑定手机弹出框
+.wrap2{width: 100%;height: 100%;background: rgba(0, 0, 0, 0.6);position: fixed;z-index: 10000;top: 0px;left: 0px;display: none;
+	.box_cons{background: #fff;margin: 115px auto 0px;border-radius: 6px;width: 255px;padding: 20px 0px;
+		.tit{color: #333;font-size:16px;text-align: center;margin-top: 0px;margin-bottom: 20px;}
+		input{border: 1px solid #ddd;height: 35px;line-height: 35px;padding-left: 5px;}
+		.phone_bound{width: 70px;}
+		.off_btn{height: 30px;width: 30px;background: #949494;position: absolute;top: -17px;right: 20px;border-radius: 50%;
+			span{width: 3px;height: 20px;background: #d7d8d7;transform: rotate(45deg);margin-left: 14px;margin-top: 6px;display: block;
+				&::after{content: '';width: 3px;height: 20px;background: #d7d8d7;transform: rotate(90deg);position: absolute;top: 0px;right: 0px;}
+			}
+		}
+	}
+}
+
+.btn[disabled],.btn.disabled{background: #ccc;}
+
+
+
+
+
+
+
+
+
+
+
+//gmu 步进组件
+.ui-progressbar-bg{border-radius:0px;position:relative;-webkit-user-select:none;}
+.ui-progressbar-filled{position:absolute;border-radius:0px;-webkit-transform:translate3d(0,0,0);-webkit-transition-duration:0ms;-webkit-user-select:none;pointer-events:none;}
+.ui-progressbar-button{position:absolute;-webkit-transform:translate3d(0,0,0);-webkit-transition-duration:0ms;-webkit-user-select:none;}
+/* 横向样式 */
+.ui-progressbar-h .ui-progressbar-bg{height:7px;}
+.ui-progressbar-h .ui-progressbar-filled{width:0;height:100%;}
+
+.ui-progressbar-bg{
+	-webkit-appearance: none;
+	background: url(../images/scale.png) no-repeat;
+	background-size:100%;.WH(274px;7px);
+	position: absolute;
+	left: 0px;
+	top: 10px;
+}
+.ui-progressbar-filled{
+}
+.ui-progressbar-button{
+	background: url(../images/s_mark.png) no-repeat;background-size:100%;.WH(18px;20px);
+	position: absolute;top: 20px;margin-top: 17px;
+}
+/* 横向样式 */
+.ui-progressbar-h .ui-progressbar-button{top:-8px;margin-left:-10px;}
+
+.btn-group{
+	.flex();
+	.bottom_btn{.flex_eq(1;50%);}
+}
+
+
+//全新刮刮乐-常规
+.blows_default{background: url(../images/blows_image/default_bj.jpg);
+	.blows_top{position: relative;padding-top: 150px;
+		.gl{background: url(../images/blows_image/default_gl.png);.WH(85px;371px);background-size: cover;position: absolute;left: 0px;top: 0px;}
+		.gr{background: url(../images/blows_image/default_gr.png);.WH(59px;373px);background-size: cover;position: absolute;right: 0px;top: 50px;}
+		.logo{background: url(../images/blows_image/default_logo.png);.WH(215px;89px);background-size: cover;position: absolute;left:50%;margin-left: -100px;top: 45px;}
+		.blows_bj{background: url(../images/blows_image/default_luck_bj.png);.WH(205px;157px);background-size: cover; margin: 0px auto 0px;position: relative;}
+		.blows{.WH(183px;134px);position: relative;z-index: 2;background: #fff;position: absolute;left: 11px;top:11px;}
+		.button{display: block;margin:50px 50px 0px 50px;.shadow(1px 3px 3px rgba(000,000,000,.25)); background: #ffffff; color: #bf212c;text-align:center;line-height: 45px;.radius(5px);font-size: 16px;}
+	}
+	.default_bottom{background: url(../images/blows_image/default_bottom.png);.WH(100%;66px);background-size: cover;position: absolute;bottom: 0px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
