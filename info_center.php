@@ -44,7 +44,7 @@
                 </li>
                  <li>
                     <span>手机号：</span>
-                    <input type="text" placeholder="未绑定手机">
+                    <input type="text" style="text-align:left;"placeholder="未绑定手机">
                     <div class="btn" id="J_phone_btn">马上绑定</div>
                 </li>
             </ul>

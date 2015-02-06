@@ -2560,3 +2560,6 @@ p {
   position: fixed;
   bottom: 0px;
 }
+.info_center input {
+  text-align: right;
+}
