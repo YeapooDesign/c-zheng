@@ -487,9 +487,9 @@ textarea {
 .Score.width_line::after {
   content: '';
   position: absolute;
-  left: 0;
+  left: 4%;
   bottom: 0px;
-  width: 100%;
+  width: 92%;
   height: 1px;
   background: #ddd;
   z-index: 1;
@@ -1057,6 +1057,23 @@ textarea {
   -moz-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   background: none;
+}
+.width_ul.yq_dote {
+  position: relative;
+  padding-left: 30px;
+}
+.width_ul.yq_dote:after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  left: 10px;
+  top: 17px;
+  background: #0da982;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0 0 3px #0da982;
+  box-shadow: 0 0 3px #0da982;
 }
 .main_li {
   border-top: 1px solid #d8d8d8;

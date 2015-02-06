@@ -23,9 +23,9 @@
                 <span>80分</span>
             </a>
     	</div>
-         <ul class="width_ul">
+         <ul class="width_ul yq_dote">
                 <li class="s_arrows">
-                    <span>参与春运告诉拥堵险</span>
+                    <span>参与春运高速拥堵险</span>
                 </li>
             </ul>
     	<div class="banner">
