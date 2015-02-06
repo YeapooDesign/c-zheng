@@ -121,7 +121,7 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 	.Exchange{font-size: 90px; height: 119px; position: relative; text-align: center;display: block;color: @Auxiliary;line-height: 95px;
 		&::after{content: '';.WH(100%;47px);.position(0;0;auto;auto);background:-webkit-linear-gradient(rgba(255,255,255,.0), rgba(255,255,255,.4))}
 	}
-	.Score{
+	.Score{position: relative;
 		&>ul >li{border-bottom: 1px solid #ddd;}
 		a{display: block;position: relative; padding: 10px;background: #fff;color:#454545;
 			ul::after{content: '';.WH(5px;5px);position: absolute;left:10px; top:15px;background: #0da982;border-radius:50%;border:3px solid #fff;box-shadow:0 0 3px #0da982}
@@ -129,6 +129,7 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 			span{color:#0da982;font-size:16px; line-height: 22px; .position(20px;40px;auto;auto);&::after{content: '';.WH(10px;10px);border-style:solid;border-width:2px 2px 0 0;border-color:#929292;.position(4px;-20px;auto;auto);.rotate(45deg);}}
 			.yh{display: inline-block;color:#9f9f9f;padding-left:25px; }
 		}
+		&.width_line::after{content: '';position: absolute;left: 0; bottom:0px;width: 100%;height: 1px; background: #ddd;z-index: 1;}
 	}
 	.banner{position: relative; z-index: 1; overflow: hidden;background: #fff; margin-top:10px;border-top:1px solid #dedede;
 		#banner li{float: left;display: none;&:first-child{display: block;}
@@ -252,7 +253,7 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 		&.width_line::after{content: '';position: absolute;left: 0; bottom:0px;width: 100%;height: 1px; background: #ddd;z-index: 1;}
 		.btn{background: #419cf9;.position(7px;-3px;auto;auto);.radius(3px);height: 32px;line-height: 32px;color: #fff;text-align: center;padding:0 15px; }
 		&.newpd{padding-left: 135px;}
-		&.s_arrows::after{content: '';width: 10px;height: 10px;.radius(0);position: absolute;left:auto;right: 0px; top:18px;border-width: 2px 2px 0 0;border-style:solid;border-color:#a1a1a1;.rotate(45deg); background: none;}
+		&.s_arrows::after{content: '';width: 10px;height: 10px;.radius(0);position: absolute;left:auto;right: 6px; top:18px;border-width: 2px 2px 0 0;border-style:solid;border-color:#a1a1a1;.rotate(45deg); background: none;}
 	}
 }
 //邀请码
@@ -579,9 +580,52 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 		.blows{.WH(183px;134px);position: relative;z-index: 2;background: #fff;position: absolute;left: 11px;top:11px;}
 		.button{display: block;margin:50px 50px 0px 50px;.shadow(1px 3px 3px rgba(000,000,000,.25)); background: #ffffff; color: #bf212c;text-align:center;line-height: 45px;.radius(5px);font-size: 16px;}
 	}
-	.default_bottom{background: url(../images/blows_image/default_bottom.png);.WH(100%;66px);background-size: cover;position: absolute;bottom: 0px;}
+	.default_bottom{background: url(../images/blows_image/default_bottom.png);.WH(100%;70px);background-size: cover;position: absolute;bottom: 0px;}
 }
 
+//刮刮乐-情人节
+.blows_214{background: url(../images/blows_image/qrj_bj.jpg);background-size: cover;
+	.blows_top{position: relative;padding-top: 150px;
+		.logo{background: url(../images/blows_image/qrj_logo.png);.WH(320px;157px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top: 0px;}
+		.down_cons{background: url(../images/blows_image/down_cons_qrj.png);.WH(320px;95px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top:310px;}
+		.blows_bj{background: url(../images/blows_image/default_luck_bj.png);.WH(205px;157px);background-size: cover; margin: 0px auto 0px;position: relative;}
+		.blows{.WH(183px;134px);position: relative;z-index: 2;background: #fff;position: absolute;left: 11px;top:11px;}
+		.button{display: block;margin:95px auto 0px;.shadow(1px 3px 3px rgba(000,000,000,.25)); background: #fff; color: #bf212c;text-align:center;line-height: 40px;.radius(15px);font-size: 16px;width: 260px;height: 40px;}
+		.h30{height: 90px;width: 100%;}
+	}
+	.default_bottom{background: url(../images/blows_image/qrj_bottom.png);.WH(100%;70px);background-size: cover;position: fixed;bottom: 0px;}
+}
+
+//刮刮乐-过年 年30-年初七
+.blows_ny{background: url(../images/blows_image/newyear_bj.jpg);background-size: 320px 300px;
+	.blows_top{position: relative;padding-top: 150px;
+		.newyear_w{background: url(../images/blows_image/newyear_w.png);.WH(320px;550px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top: 0px;}
+		
+		.n30_logo{background: url(../images/blows_image/n30_logo.png);.WH(320px;231px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top: -3px;}
+		.nc1_logo{background: url(../images/blows_image/nc1_logo.png);.WH(320px;157px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top: -8px;}
+		.nc2_logo{background: url(../images/blows_image/nc2_logo.png);.WH(320px;157px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top: -8px;}
+		.nc3_logo{background: url(../images/blows_image/nc3_logo.png);.WH(320px;157px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top: -8px;}
+		.nc4_logo{background: url(../images/blows_image/nc4_logo.png);.WH(320px;157px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top: -8px;}
+		.nc5_logo{background: url(../images/blows_image/nc5_logo.png);.WH(320px;157px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top: -5px;}
+		.nc6_logo{background: url(../images/blows_image/nc6_logo.png);.WH(320px;157px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top: -8px;}
+		.nc7_logo{background: url(../images/blows_image/nc7_logo.png);.WH(320px;157px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top: -8px;}
+		
+		.down_cons_30{background: url(../images/blows_image/down_cons_30.png);.WH(320px;95px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top:310px;}
+		.down_cons_1{background: url(../images/blows_image/down_cons_1.png);.WH(320px;95px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top:310px;}
+		.down_cons_2{background: url(../images/blows_image/down_cons_2.png);.WH(320px;95px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top:310px;}
+		.down_cons_3{background: url(../images/blows_image/down_cons_3.png);.WH(320px;95px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top:310px;}
+		.down_cons_4{background: url(../images/blows_image/down_cons_4.png);.WH(320px;95px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top:310px;}
+		.down_cons_5{background: url(../images/blows_image/down_cons_5.png);.WH(320px;95px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top:310px;}
+		.down_cons_6{background: url(../images/blows_image/down_cons_6.png);.WH(320px;95px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top:310px;}
+		.down_cons_7{background: url(../images/blows_image/down_cons_7.png);.WH(320px;95px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top:310px;}
+		
+		.blows_bj{background: url(../images/blows_image/default_luck_bj.png);.WH(205px;157px);background-size: cover; margin: 0px auto 0px;position: relative;}
+		.blows{.WH(183px;134px);position: relative;z-index: 2;background: #fff;position: absolute;left: 11px;top:11px;}
+		.button{display: block;margin:95px auto 0px;.shadow(1px 3px 3px rgba(000,000,000,.25)); background: #fff; color: #bf212c;text-align:center;line-height: 40px;.radius(15px);font-size: 16px;width: 260px;height: 40px;}
+		.h30{height: 165px;width: 100%;}
+	}
+	.default_bottom{background: url(../images/blows_image/default_bottom.png);.WH(100%;60px);background-size: cover;position: fixed;bottom: 0px;}
+}
 
 
 

@@ -14,7 +14,7 @@
         	<div class="title">剩余挣点</div>
         	<a href="score.html" class="Exchange" id="Exchange">53&nbsp81</a>
         </div>
-    	<div class="Score">
+    	<div class="Score width_line">
     		<a href="#" class="mt10">
                 <ul>
                     <li>行驶 32 公里 ，耗油 2.39 升 </li>
@@ -23,6 +23,11 @@
                 <span>80分</span>
             </a>
     	</div>
+         <ul class="width_ul">
+                <li class="s_arrows">
+                    <span>参与春运告诉拥堵险</span>
+                </li>
+            </ul>
     	<div class="banner">
             <div class="left" id="previous"></div>
             <div class="right" id="next"></div>
