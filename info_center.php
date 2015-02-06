@@ -67,6 +67,16 @@
                 </li>
             </ul>
               <ul class="width_ul mt15">
+                <li class="width_line">
+                    <span>点火通知</span>
+                    <div class="Switch " id="warning"></div>
+                </li>
+                <li class="">
+                    <span>行程通知</span>
+                    <div class="Switch " id="warning2"></div>
+                </li>
+            </ul>
+              <ul class="width_ul mt15">
                 <li class="s_arrows">
                     <span>更改车型</span>
                 </li>

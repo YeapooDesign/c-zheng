@@ -57,6 +57,13 @@ $(function(){
             $(this).addClass('active');
         }
     })
+     $('#warning2').on('click',function(){
+        if($(this).hasClass('active')){
+            $(this).removeClass('active');
+        }else{
+            $(this).addClass('active');
+        }
+    })
     //报警等级选择
     $('#collbox li').on('click',function(){
         $('#collbox li').removeClass('active');

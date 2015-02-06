@@ -1897,7 +1897,6 @@ p {
 }
 .order_succeed .item p {
   color: #000;
-  font-size: 14px;
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 20px;
@@ -1914,6 +1913,27 @@ p {
 }
 .order_succeed .item .num {
   width: 20px;
+}
+.order_succeed .item .num > span {
+  background: url(../images/join_icon.png);
+  width: 14px;
+  height: 14px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: block;
+  margin-top: 4px;
+}
+.order_succeed .item .cont {
+  font-size: 12px;
+}
+.order_succeed .item .yq_fc {
+  color: #979797;
+  font-size: 75%;
+}
+.order_succeed .yq_Prompt {
+  margin: 0px 0px 10px 15px;
+  color: #FF3636;
+  font-size: 12px;
 }
 .subsidy_list {
   margin: 15px 15px 0px 15px;
@@ -1937,6 +1957,7 @@ p {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px;
+  overflow: hidden;
 }
 .subsidy_list .list_cons .item .right_tit {
   width: 85px;
@@ -1945,6 +1966,18 @@ p {
   line-height: 105px;
   font-size: 34px;
   text-align: center;
+  position: relative;
+}
+.subsidy_list .list_cons .item .right_tit span {
+  background: url(../images/10L.jpg);
+  width: 55px;
+  height: 67px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 13px;
 }
 .subsidy_list .list_cons .item::after {
   content: '';
