@@ -252,7 +252,6 @@ textarea {
 .article .Gauge_board .gauge_box {
   background: url(../images/xctj.png) no-repeat;
   position: relative;
-  -webkit-background-size: 280px;
   background-size: 280px;
   width: 280px;
   height: 184px;
@@ -260,7 +259,6 @@ textarea {
 }
 .article .Gauge_board .gauge_box .num {
   background: url(../images/round.png) no-repeat;
-  -webkit-background-size: 87px;
   background-size: 87px;
   position: absolute;
   left: 50%;
@@ -305,7 +303,6 @@ textarea {
   left: 20px;
   background-image: url(../images/icon.png);
   background-repeat: no-repeat;
-  -webkit-background-size: 300px;
   background-size: 300px;
   background-position: -44px -1px;
 }
@@ -319,8 +316,6 @@ textarea {
   text-align: center;
   color: #9c9c9c;
   padding: 15px 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
   font-size: 14px;
@@ -441,7 +436,6 @@ textarea {
   background: #0da982;
   border-radius: 50%;
   border: 3px solid #fff;
-  -webkit-box-shadow: 0 0 3px #0da982;
   box-shadow: 0 0 3px #0da982;
 }
 .Score a li {
@@ -577,8 +571,6 @@ textarea {
   background: #c93f3c;
   width: 100%;
   padding: 15px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .blows_happy .blows_top .blows_box {
@@ -586,8 +578,6 @@ textarea {
   width: 100%;
   background: #fff3d9;
   border-radius: 5px 5px 0 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 auto;
 }
@@ -625,7 +615,6 @@ textarea {
 }
 .blows_happy .blows_bottom {
   background: url(../images/blows3.png) no-repeat;
-  -webkit-background-size: 100%;
   background-size: 100%;
   width: 246px;
   height: 40px;
@@ -634,7 +623,6 @@ textarea {
 .blows_happy .button {
   display: block;
   margin: 20px;
-  -webkit-box-shadow: 1px 3px 3px rgba(170, 110, 25, 0.75);
   box-shadow: 1px 3px 3px rgba(170, 110, 25, 0.75);
   background: #ebc03d;
   color: #000;
@@ -650,7 +638,6 @@ textarea {
   border: none;
   padding: 10px 10px 40px;
   background: url(../images/chris_bg.png) no-repeat;
-  -webkit-background-size: cover;
   background-size: cover;
 }
 .christmas .blows_top .blows_box .title {
@@ -720,7 +707,6 @@ textarea {
   background-color: #5dace7;
   background-image: url(../images/icon.png);
   background-repeat: no-repeat;
-  -webkit-background-size: 300px;
   background-size: 300px;
   background-position: 5px 6px;
 }
@@ -772,7 +758,6 @@ textarea {
   background-position: 5px -383px;
 }
 .schedule_box {
-  -webkit-box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.06);
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.06);
   position: relative;
   z-index: 2;
@@ -828,8 +813,6 @@ textarea {
   float: left;
   font-size: 12px;
   height: 72px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
   color: #aeaeae;
@@ -914,7 +897,6 @@ textarea {
   width: 40px;
   height: 40px;
   background: url(../images/pull-icon@2x.png) 0 0 no-repeat;
-  -webkit-background-size: 40px 80px;
   background-size: 40px 80px;
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 250ms;
@@ -1001,8 +983,6 @@ textarea {
   height: 40px;
   line-height: 20px;
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: none;
 }
@@ -1072,7 +1052,6 @@ textarea {
   background: #0da982;
   border-radius: 50%;
   border: 3px solid #fff;
-  -webkit-box-shadow: 0 0 3px #0da982;
   box-shadow: 0 0 3px #0da982;
 }
 .main_li {
@@ -1196,7 +1175,6 @@ textarea {
 }
 .voltage_watch .s_mark {
   background: url(../images/s_mark.png) no-repeat;
-  -webkit-background-size: 100%;
   background-size: 100%;
   width: 18px;
   height: 20px;
@@ -1224,7 +1202,6 @@ textarea {
 .voltage_watch input[type="range"] {
   -webkit-appearance: none;
   background: url(../images/scale.png) no-repeat;
-  -webkit-background-size: 100%;
   background-size: 100%;
   width: 274px;
   height: 7px;
@@ -1237,7 +1214,6 @@ textarea {
   display: block;
   margin-top: 30px;
   background: url(../images/s_mark.png) no-repeat;
-  -webkit-background-size: 100%;
   background-size: 100%;
   width: 18px;
   height: 20px;
@@ -1274,12 +1250,11 @@ textarea {
   content: '';
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
+      transform: translate(0px, 0px);
   -webkit-transition: all .1s linear 0s;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 0;
@@ -1295,7 +1270,7 @@ textarea {
 .active.Switch::after {
   -webkit-transform: translate(30px, 0px);
   -ms-transform: translate(30px, 0px);
-  transform: translate(30px, 0px);
+      transform: translate(30px, 0px);
 }
 .Collision {
   background: #fff;
@@ -1312,8 +1287,6 @@ textarea {
   padding: 40px 20px;
   position: relative;
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .collision_box .collbox {
@@ -1564,8 +1537,6 @@ p {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
   padding-left: 75px;
@@ -1584,8 +1555,6 @@ p {
   padding-right: 40px;
   width: 48%;
   margin-right: 4%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .violating li .t1 span,
@@ -1630,14 +1599,12 @@ p {
   padding: 0 10px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 .violating li .box {
   padding: 0 10px;
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .violating input {
@@ -1651,8 +1618,6 @@ p {
   width: 100%;
   height: 36px;
   padding: 0 10px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .button2 {
@@ -1800,12 +1765,12 @@ p {
 }
 .tckzoomIn {
   -webkit-animation: tckzoomIn 0.6s 0s ease both;
-  animation: tckzoomIn 0.6s 0s ease both;
+          animation: tckzoomIn 0.6s 0s ease both;
 }
 @-webkit-keyframes tckzoomIn {
   0% {
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3);
   }
   50% {
     opacity: 1;
@@ -1814,7 +1779,7 @@ p {
 @keyframes tckzoomIn {
   0% {
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3);
   }
   50% {
     opacity: 1;
@@ -1918,7 +1883,6 @@ p {
   background: url(../images/join_icon.png);
   width: 14px;
   height: 14px;
-  -webkit-background-size: cover;
   background-size: cover;
   display: block;
   margin-top: 4px;
@@ -1949,8 +1913,8 @@ p {
 .subsidy_list .list_cons .item .left_tit {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   box-flex: 1;
   background: #fff;
   border-left: 1px solid #ddd;
@@ -1972,7 +1936,6 @@ p {
   background: url(../images/10L.jpg);
   width: 55px;
   height: 67px;
-  -webkit-background-size: cover;
   background-size: cover;
   display: block;
   position: absolute;
@@ -2015,7 +1978,6 @@ p {
   background: url(../images/join_icon.png) no-repeat;
   width: 49px;
   height: 49px;
-  -webkit-background-size: cover;
   background-size: cover;
   margin: 0 auto;
 }
@@ -2073,8 +2035,8 @@ p {
   height: 20px;
   background: #d7d8d7;
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   margin-left: 14px;
   margin-top: 6px;
   display: block;
@@ -2085,8 +2047,8 @@ p {
   height: 20px;
   background: #d7d8d7;
   -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
   position: absolute;
   top: 0px;
   right: 0px;
@@ -2125,7 +2087,6 @@ p {
 .ui-progressbar-bg {
   -webkit-appearance: none;
   background: url(../images/scale.png) no-repeat;
-  -webkit-background-size: 100%;
   background-size: 100%;
   width: 274px;
   height: 7px;
@@ -2135,7 +2096,6 @@ p {
 }
 .ui-progressbar-button {
   background: url(../images/s_mark.png) no-repeat;
-  -webkit-background-size: 100%;
   background-size: 100%;
   width: 18px;
   height: 20px;
@@ -2174,7 +2134,6 @@ p {
   background: url(../images/blows_image/default_gl.png);
   width: 85px;
   height: 371px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 0px;
@@ -2184,7 +2143,6 @@ p {
   background: url(../images/blows_image/default_gr.png);
   width: 59px;
   height: 373px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   right: 0px;
@@ -2194,7 +2152,6 @@ p {
   background: url(../images/blows_image/default_logo.png);
   width: 215px;
   height: 89px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2205,7 +2162,6 @@ p {
   background: url(../images/blows_image/default_luck_bj.png);
   width: 205px;
   height: 157px;
-  -webkit-background-size: cover;
   background-size: cover;
   margin: 0px auto 0px;
   position: relative;
@@ -2223,7 +2179,6 @@ p {
 .blows_default .blows_top .button {
   display: block;
   margin: 50px 50px 0px 50px;
-  -webkit-box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
   background: #ffffff;
   color: #bf212c;
@@ -2236,14 +2191,12 @@ p {
   background: url(../images/blows_image/default_bottom.png);
   width: 100%;
   height: 70px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   bottom: 0px;
 }
 .blows_214 {
   background: url(../images/blows_image/qrj_bj.jpg);
-  -webkit-background-size: cover;
   background-size: cover;
 }
 .blows_214 .blows_top {
@@ -2254,7 +2207,6 @@ p {
   background: url(../images/blows_image/qrj_logo.png);
   width: 320px;
   height: 157px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2265,7 +2217,6 @@ p {
   background: url(../images/blows_image/down_cons_qrj.png);
   width: 320px;
   height: 95px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2276,7 +2227,6 @@ p {
   background: url(../images/blows_image/default_luck_bj.png);
   width: 205px;
   height: 157px;
-  -webkit-background-size: cover;
   background-size: cover;
   margin: 0px auto 0px;
   position: relative;
@@ -2294,7 +2244,6 @@ p {
 .blows_214 .blows_top .button {
   display: block;
   margin: 95px auto 0px;
-  -webkit-box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
   background: #fff;
   color: #bf212c;
@@ -2313,14 +2262,12 @@ p {
   background: url(../images/blows_image/qrj_bottom.png);
   width: 100%;
   height: 70px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: fixed;
   bottom: 0px;
 }
 .blows_ny {
   background: url(../images/blows_image/newyear_bj.jpg);
-  -webkit-background-size: 320px 300px;
   background-size: 320px 300px;
 }
 .blows_ny .blows_top {
@@ -2331,7 +2278,6 @@ p {
   background: url(../images/blows_image/newyear_w.png);
   width: 320px;
   height: 550px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2342,7 +2288,6 @@ p {
   background: url(../images/blows_image/n30_logo.png);
   width: 320px;
   height: 231px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2353,7 +2298,6 @@ p {
   background: url(../images/blows_image/nc1_logo.png);
   width: 320px;
   height: 157px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2364,7 +2308,6 @@ p {
   background: url(../images/blows_image/nc2_logo.png);
   width: 320px;
   height: 157px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2375,7 +2318,6 @@ p {
   background: url(../images/blows_image/nc3_logo.png);
   width: 320px;
   height: 157px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2386,7 +2328,6 @@ p {
   background: url(../images/blows_image/nc4_logo.png);
   width: 320px;
   height: 157px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2397,7 +2338,6 @@ p {
   background: url(../images/blows_image/nc5_logo.png);
   width: 320px;
   height: 157px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2408,7 +2348,6 @@ p {
   background: url(../images/blows_image/nc6_logo.png);
   width: 320px;
   height: 157px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2419,7 +2358,6 @@ p {
   background: url(../images/blows_image/nc7_logo.png);
   width: 320px;
   height: 157px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2430,7 +2368,6 @@ p {
   background: url(../images/blows_image/down_cons_30.png);
   width: 320px;
   height: 95px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2441,7 +2378,6 @@ p {
   background: url(../images/blows_image/down_cons_1.png);
   width: 320px;
   height: 95px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2452,7 +2388,6 @@ p {
   background: url(../images/blows_image/down_cons_2.png);
   width: 320px;
   height: 95px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2463,7 +2398,6 @@ p {
   background: url(../images/blows_image/down_cons_3.png);
   width: 320px;
   height: 95px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2474,7 +2408,6 @@ p {
   background: url(../images/blows_image/down_cons_4.png);
   width: 320px;
   height: 95px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2485,7 +2418,6 @@ p {
   background: url(../images/blows_image/down_cons_5.png);
   width: 320px;
   height: 95px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2496,7 +2428,6 @@ p {
   background: url(../images/blows_image/down_cons_6.png);
   width: 320px;
   height: 95px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2507,7 +2438,6 @@ p {
   background: url(../images/blows_image/down_cons_7.png);
   width: 320px;
   height: 95px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -2518,7 +2448,6 @@ p {
   background: url(../images/blows_image/default_luck_bj.png);
   width: 205px;
   height: 157px;
-  -webkit-background-size: cover;
   background-size: cover;
   margin: 0px auto 0px;
   position: relative;
@@ -2536,7 +2465,6 @@ p {
 .blows_ny .blows_top .button {
   display: block;
   margin: 95px auto 0px;
-  -webkit-box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
   background: #fff;
   color: #bf212c;
@@ -2555,7 +2483,6 @@ p {
   background: url(../images/blows_image/default_bottom.png);
   width: 100%;
   height: 60px;
-  -webkit-background-size: cover;
   background-size: cover;
   position: fixed;
   bottom: 0px;
@@ -2563,4 +2490,37 @@ p {
 .info_center input {
   text-align: right;
   color: #AAA;
+}
+.invite_cons img {
+  width: 100%;
+}
+.invite_cons .invite_bottom {
+  height: 65px;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding-top: 30px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 999;
+}
+.invite_cons .invite_btn {
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: #2b9bfc;
+  margin: 0px auto;
+  position: relative;
+}
+.invite_cons .invite_btn::before {
+  content: '';
+  background: url(../images/arrow.gif);
+  width: 41px;
+  height: 38px;
+  background-size: cover;
+  position: absolute;
+  left: -45px;
 }
