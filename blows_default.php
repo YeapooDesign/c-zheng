@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%;">
 <head>
     <?php include_once("layout/meta.php"); ?>
     <title>刮刮乐-常规界面</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body class="blows_default">
-    <article class="article">
+<body class="blows_default" style="height: 100%;">
+    <article class="article" style="position: relative;height:100%;min-height:490px;">
         <div class="blows_top">
             <div class="gl"></div>
             <div class="gr"></div>
