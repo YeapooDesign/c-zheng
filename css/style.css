@@ -2573,8 +2573,8 @@ p {
 }
 .blows_327 .blows_top {
   position: relative;
-  height: 340px;
   background: #c2ee9c;
+  padding-top: 350px;
 }
 .blows_327 .blows_top .sun {
   background: url(../images/blows_image/327_sun.png);
@@ -2641,10 +2641,10 @@ p {
 }
 .blows_327 .blows_top .button {
   display: block;
-  margin: 50px 50px 0px 50px;
+  margin: 0px 50px;
   box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
-  background: #ffffff;
-  color: #bf212c;
+  background: #537B1B;
+  color: #fff;
   text-align: center;
   line-height: 45px;
   border-radius: 5px;

@@ -18,6 +18,7 @@
                     <canvas width='183' height='134' class="surface" id="myCanvas"></canvas>
                 </div>
             </div>
+             <a href="#" class="button">刮不了，请点击</a>
         </div>
         <div class="blows_down"></div>
         <div class="default_bottom"></div>
