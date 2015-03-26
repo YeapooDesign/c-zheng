@@ -485,6 +485,20 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 	}
 	.bottom_btn{ margin: 15px 25px;border-radius:8px; background:#419af8; color: #fff; text-align: center; line-height: 45px;}
 }
+//清明补贴
+.qm_subsidy{
+	.top_banner{
+		img{width: 100%;}
+	}
+	.tit_con{background: #fff;padding: 0 15px;border-bottom: 1px solid #ddd;margin-bottom: 15px;}
+	.item{position: relative;padding-bottom: 10px;
+		.title{color: #333;line-height: 40px;}
+		.title2{color: #949494;line-height: 40px;font-size: 12px;}
+		p{color: #949494;font-size: 14px;margin-bottom: 4px;font-size: 12px;line-height: 20px;}
+		&.width_line::after{content:'';position: absolute;left: 0; bottom:0px;width: 100%;height: 1px; background: #ddd;z-index: 1;}
+	}
+	.bottom_btn{ margin: 15px 25px;border-radius:8px; background:#419af8; color: #fff; text-align: center; line-height: 45px;}
+}
 //预约成功
 .order_succeed{
 	.tit_con{background: #fff;padding: 0px 15px;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;margin-bottom: 15px;}
@@ -660,6 +674,22 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 		position: relative;
 		&::before{content:'';background: url(../images/arrow.gif);.WH(41px;38px);background-size: cover;position: absolute;left: -45px;}
 	}
+}
+
+//刮刮乐-327车挣环保日
+.blows_327{
+	.blows_top{position: relative;height: 340px;background: #c2ee9c;
+		.sun{background: url(../images/blows_image/327_sun.png);.WH(320px;67px);background-size: cover;position: absolute;left: 50%;margin-left: -160px;top: 0px;}
+		.gl{background: url(../images/blows_image/327_cloudL.png);.WH(54px;260px);background-size: cover;position: absolute;left: 0px;top: 0px;}
+		.gr{background: url(../images/blows_image/327_cloudR.png);.WH(63px;68px);background-size: cover;position: absolute;right: 0px;top: 20px;}
+		.logo{background: url(../images/blows_image/327_logo.png);.WH(320px;95px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top: 65px;}
+		.tit{background: url(../images/blows_image/327_tit.png);.WH(320px;46px);background-size: cover;position: absolute;left:50%;margin-left: -160px;top: 300px;}
+		.blows_bj{.WH(205px;157px);position: absolute;top: 165px;left: 50%;margin-left: -87px;}
+		.blows{.WH(183px;134px);position: relative;z-index: 2;background: #c2ee9c;}
+		.button{display: block;margin:50px 50px 0px 50px;.shadow(1px 3px 3px rgba(000,000,000,.25)); background: #ffffff; color: #bf212c;text-align:center;line-height: 45px;.radius(5px);font-size: 16px;}
+	}
+	.blows_down{background: url(../images/blows_image/327_downcon.jpg);.WH(100%;259px);background-size: cover;}
+	.default_bottom{background: url(../images/blows_image/default_bottom.png);.WH(100%;70px);background-size: cover;position: fixed;bottom: 0px;}
 }
 
 
