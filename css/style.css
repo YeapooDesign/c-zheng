@@ -2630,7 +2630,7 @@ p {
   position: absolute;
   top: 165px;
   left: 50%;
-  margin-left: -87px;
+  margin-left: -88px;
 }
 .blows_327 .blows_top .blows {
   width: 183px;
@@ -2641,14 +2641,15 @@ p {
 }
 .blows_327 .blows_top .button {
   display: block;
-  margin: 0px 50px;
+  margin: 0px auto;
   box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
   background: #537B1B;
   color: #fff;
   text-align: center;
-  line-height: 45px;
+  line-height: 40px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 14px;
+  width: 130px;
 }
 .blows_327 .blows_down {
   background: url(../images/blows_image/327_downcon.jpg);

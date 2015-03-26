@@ -12,7 +12,7 @@ var default_option={
   areaPercent:30,
   frontPosition:{
     x:function(_w,_h){
-    return 70;
+    return 66;
   },
     y:function(_w,_h){
       return (_h/2)+4;
