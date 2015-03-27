@@ -1842,6 +1842,9 @@ p {
   text-align: center;
   line-height: 45px;
 }
+.qm_subsidy span {
+  color: #419af8;
+}
 .qm_subsidy .top_banner img {
   width: 100%;
 }
@@ -1863,6 +1866,13 @@ p {
   color: #949494;
   line-height: 40px;
   font-size: 12px;
+}
+.qm_subsidy .item .title3 {
+  color: #333;
+  line-height: 25px;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 3px;
 }
 .qm_subsidy .item p {
   color: #949494;
