@@ -2665,3 +2665,13 @@ p {
   position: fixed;
   bottom: 0px;
 }
+.maintain .top_img {
+  width: 150px;
+  margin: 30px auto 20px;
+}
+.maintain .top_img img {
+  width: 100%;
+}
+.maintain h1 {
+  text-align: center;
+}
