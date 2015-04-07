@@ -49,6 +49,7 @@
         </div>
         <span class="binding_tit">注：* 请确认您是否为“停驶退保”客户。</span>
         <span class="binding_tit2">* 请拍整个保单给客服。</span>
+        <div class="bottom_btn">确认</div>
     </article>
     <script type="text/javascript" src="js/zepto.js"></script>
     <script type="text/javascript" src="js/extend.js"></script>
