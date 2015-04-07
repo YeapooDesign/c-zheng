@@ -2687,7 +2687,27 @@ p {
 }
 .binding_tit {
   color: #999;
-  padding: 10px;
+  padding: 10px 10px 5px 10px ;
   display: block;
   font-size: 12px;
+}
+.binding_tit2 {
+  color: #999;
+  display: block;
+  font-size: 12px;
+  margin-left: 34px;
+}
+.select-box {
+  position: relative;
+}
+.select-label {
+  text-align: right;
+  color: #AAA;
+}
+.yq-s-right {
+  opacity: 0;
+  position: absolute;
+  right: 0px;
+  width: 100%;
+  height: 40px;
 }
