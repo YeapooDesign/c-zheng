@@ -251,6 +251,7 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 		input{height:40px;line-height: 20px;width:100%;box-sizing:border-box;border: none;}
 		span{.position(0;auto;auto;0px);display: block;height: 45px;}
 		&.width_line::after{content: '';position: absolute;left: 0; bottom:0px;width: 100%;height: 1px; background: #ddd;z-index: 1;}
+		&.width_line2::before{content: '';position: absolute;left: 0; bottom:0px;width: 100%;height: 1px; background: #ddd;z-index: 1;}
 		.btn{background: #419cf9;.position(7px;-3px;auto;auto);.radius(3px);height: 32px;line-height: 32px;color: #fff;text-align: center;padding:0 15px; }
 		&.newpd{padding-left: 135px;}
 		&.s_arrows::after{content: '';width: 10px;height: 10px;.radius(0);position: absolute;left:auto;right: 6px; top:18px;border-width: 2px 2px 0 0;border-style:solid;border-color:#a1a1a1;.rotate(45deg); background: none;}
@@ -262,6 +263,7 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 			content: '';.WH(5px;5px);position: absolute;left:10px; top:17px;background: #0da982;
 			border-radius:50%;border:3px solid #fff;box-shadow:0 0 3px #0da982;
 		}
+		&.width_line2::before{content: '';position: absolute;left: 4%; bottom:0px;width: 92%;height: 1px; background: #ddd;z-index: 1;}
 	}
 }
 //邀请码
@@ -703,7 +705,11 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 }
 
 //绑定手机
-.binding_tit{color: #999;padding: 10px 10px 5px 10px ;display: block;font-size: 12px;}
+.binding_tit{color: #999;padding: 10px 10px 5px 10px ;display: block;font-size: 12px;
+	input{-webkit-appearance:checkbox;margin-right: 5px;}
+	p{color: #999;font-size: 12px;line-height: 1.5;}
+	em{font-style: normal;color: #419af8;}
+}
 .binding_tit2{color: #999;display: block;font-size: 12px;margin-left: 34px;}
 
 //停驶退保
@@ -712,10 +718,127 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 .yq-s-right{opacity: 0;position: absolute;right: 0px;width: 100%;height: 40px;} 
 
 
+/*首页banner 新增样式*/
+
+.banner #banner li {position: relative;}
+.banner #banner li .banner_text{
+  position: absolute;
+  top: 56*@rem;
+  right:62*@rem;
+  font-size: 12*@rem; 
+  .t1{font-size:16*@rem;}
+  p{font-size: inherit;color: #fff;line-height:1.3;em{font-style: normal;font-size:14*@rem;}}
+}
+
+/*==========================rem=============开始=============
+*
+* 变量
+** 1.设置默认字体大小
+** 2.每份rem的大小
+*
+**/
+	@active-font-size:20; /*1*/
+	@rem:0.1/(0.1*@active-font-size+0rem); /*2*/
+
+/**
+* 循环函数 设置 media screen <html> fontsize 
+* min-20px max-40px
+**/
+	.for-media-fontsize(@n, @i: 1) when (@i =< @n) {
+	 @w:((320)/@n*@i);
+	 @fz:(@active-font-size+@i*(@active-font-size/@n));
+   @media only screen and (min-width:(@w+320px) ) {font-size: (@fz+0px) !important;}
+  .for-media-fontsize(@n, (@i + 1));
+}
+
+/**
+* 通用混合函数
+**/
+	.wh(@width,@height){
+		width: @width;
+		height: @height;
+	}
+	.box(@top,@right,@bottom,@left){
+		top:@top;
+		right:@right;
+		bottom:@bottom;
+		left:@left;
+	}
 
 
 
+/**
+* start
+**/
+html#html {
+	height: 100%;
+  font-size : @active-font-size+0px;
+  //开始循环
+  .for-media-fontsize(20);	//设置media粒度
+}
 
+html#html body {height: 100%;}
 
+/*==========================rem=============结束=============*/
 
+/*===51====*/
+.fo_activity{
+	.fo_activity_first{height: 58px;
+	&.s_arrows::after{content: '';width: 10px;height: 10px;.radius(0);position: absolute;left:auto;right: 6px; top:22px;border-width: 2px 2px 0 0;border-style:solid;border-color:#a1a1a1;.rotate(45deg); background: none;}
+		span{left: 33px;color: #AAA;line-height: 58px;}
+	}
+	.fo_si{
+					background-image: url(../images/i-xsan.jpg);
+					background-repeat: no-repeat; 
+					background-size:28px;
+					display:block;
+					width: 28px;height: 28px;
+					position: absolute;
+					left: 0px;top: 16px;
+				}
+	input{text-align: right;color: #AAA;}
+	.top_banner{
+		img{width: 100%;}
+	}
+}
+.width_ul .sel_input{
+	.form-control{border: 1px solid #ddd;width: 132px;height: 34px;margin-top: 4px;float: right;}
+	.form-control-l{float: right;position: relative;
+		.cnt{
+			background: 0 0;
+			-webkit-appearance: none;
+			outline: 0;
+			display: block;
+			width: 50px;
+			// height: 34px;
+			padding: 6px 12px;
+			font-size: 14px;
+			line-height: 1.42857143;
+			color: #555;
+			border-radius: 0px;
+			color: #aaa;
+			border: 0;
+		}
+	}
+	.s-cons:before{
+				content: "";
+				top: 12px;
+				right: 10px;
+				position: absolute;
+				display: inline-block;
+				width: 5px;
+				height: 5px;
+				border: #999 solid;
+				border-width: 1px 1px 0 0;
+				transform: rotate(135deg);
+			}
+	.form-control-r{width: 80px;float: right;line-height: 34px;border-left: 1px solid #ddd;
+		input{
+			height: 34px;
+			padding-right: 2px;
+			border-radius: 0px;
+		}
+	}
+}
+/*===51===结束=*/
 

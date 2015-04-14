@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="html">
 <head>
     <?php include_once("layout/meta.php"); ?>
     <title>首页</title>
@@ -23,15 +23,24 @@
                 <span>80分</span>
             </a>
     	</div>
-         <ul class="width_ul yq_dote">
-                <li class="s_arrows">
-                    <span>参与春运高速拥堵险</span>
-                </li>
-            </ul>
+        <ul class="width_ul yq_dote width_line2">
+            <li class="s_arrows">
+                <span>五一自驾游,车挣保平安</span>
+            </li>
+        </ul>
+        <ul class="width_ul yq_dote">
+            <li class="s_arrows">
+                <span>五一自驾游,车挣保平安</span>
+            </li>
+        </ul>
     	<div class="banner">
             <div class="left" id="previous"></div>
             <div class="right" id="next"></div>
            <ul id="banner">
+                <li><a href="#"><img src="images/banner5.jpg" alt="">
+                    <div class="banner_text"><p class="t1">我要分享</p><p>安装车挣<em>113天</em>了</p><p>收益<em>10</em>元！</p></div>
+                    </a>
+                </li>
                 <li><a href="#"><img src="images/banner.jpg" alt=""></a></li>
                 <li><a href="#"><img src="images/banner2.jpg" alt=""></a></li>
                 <li><a href="#"><img src="images/banner3.jpg" alt=""></a></li>
@@ -40,6 +49,7 @@
             <div class="round">
                 <ul id="round">
                     <li class="active"></li>
+                    <li></li>
                     <li></li>
                     <li></li>
                     <li></li>
