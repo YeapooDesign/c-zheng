@@ -10,6 +10,7 @@
     <?php include_once("layout/nav.php"); ?>
 
     <article class="article">
+        <div style="color:#FF3636;padding: 6px 10px;font-size:12px;background:#fff;border-bottom:1px solid #eee;">* 下午2点微信端将进行一次升级(1个小时左右)，APP不受影响</div>
         <div class="index_head">
         	<div class="title">剩余挣点</div>
         	<a href="score.html" class="Exchange" id="Exchange">53&nbsp81</a>
