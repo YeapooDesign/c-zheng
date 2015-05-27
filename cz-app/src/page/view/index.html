@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" > 
+	<title>欢迎您使用车挣</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script>
+   // 请求图片地址
+    var imgList = [
+    		'../img/page1-1.jpg',
+    		'../img/page8-1.jpg',
+    		'../img/page2-1.jpg',
+    		'../img/page3-1.jpg',
+    		'../img/page4-1.jpg',
+    		'../img/page6-1.jpg',
+    		'../img/page7-1.jpg',
+    		'../img/page7-2.jpg',
+    		'../img/btn.png',
+    ];
+  </script>
+</head>
+<body>
+
+  <!-- 加载遮罩 -->
+  <aside class="mask" id="loadMask" data-note="加载...">
+    <div class="loading">
+      <div class="loadimg"></div>
+      <span id='processValue'>0</span>
+    </div>
+  </aside>
+	<section class="m-index" style="display: none;">
+		
+		<section data-page="1" class="m-page m-page1 show">
+			<arction class="content">
+				<div class="arrow"><p class="afor-1"></p></div>
+				<div class="img1"></div>
+				<div class="tit-con">
+					<div class="t-tit">感谢您使用车挣</div>
+					<div class="a-tit mt20">车挣已经陪伴你走过 <b>72</b> 天，共 <b>1728</b> 小时啦！</div>
+				</div>
+				<div class="day">
+					<div class="t-tit"> <b>72</b> 天，挣得 <b>256</b> 元啦！</div>
+				</div>
+			</arction>
+		</section>
+
+		<section data-page="8" class="m-page m-page8 hide">
+			<arction class="content">
+				<div class="arrow"><p class="afor-1"></p></div>
+				<div class="img1"></div>
+				<div class="tit-con">
+					<div class="t-tit"><b>56489</b>个挣点</div>
+					<div class="a-tit mt20">您总共有<b></b>56489个挣点，总共<b>564.89</b>元，</div>
+					<div class="a-tit">里程奖励<b>14122</b>个挣点！驾驶奖励<b>14122</b>个挣点！</div>
+					<div class="a-tit">停驶奖励<b>14122</b>个挣点！邀请奖励<b>14122</b>个挣点！</div>
+				</div>
+			</arction>
+		</section>
+
+		<section data-page="2" class="m-page m-page2 hide">
+			<arction class="content">
+				<div class="arrow"><p class="afor-1"></p></div>
+				<div class="img1"></div>
+				<div class="tit-con">
+					<div class="t-tit"><b>251</b>个行程</div>
+					<div class="a-tit mt20">车挣显示，您总共有<b>251</b>个行程，日均<b>3.5</b>个行程</div>
+					<div class="a-tit">您这披星戴月的，火急火燎的是要到哪里去呢？</div>
+				</div>
+			</arction>
+		</section>
+
+		<section data-page="3" class="m-page m-page3 hide">
+			<arction class="content">
+				<div class="arrow"><p class="afor-1"></p></div>
+				<div class="img1"></div>
+				<div class="tit-con">
+					<div class="t-tit">累计<b>4000</b>公里</div>
+					<div class="a-tit mt20">累计共行驶<b>4000</b>公里，相当于从上海到乌鲁木齐</div>
+					<div class="a-tit">像是超人会飞～看来又可以绕月飞行了。</div>
+				</div>
+			</arction>
+		</section>
+
+		<section data-page="4" class="m-page m-page4 hide">
+			<arction class="content">
+				<div class="arrow"><p class="afor-1"></p></div>
+				<div class="img1"></div>
+				<div class="tit-con">
+					<div class="t-tit"><b>500</b>个小时</div>
+					<div class="a-tit mt20">耗时：开车总共花了<b>500</b>个小时。</div>
+					<div class="a-tit">人生的十分之一就这么在车上晃晃悠悠的度过了。</div>
+				</div>
+			</arction>
+		</section>
+
+		<!-- <section data-page="5" class="m-page m-page5 hide">
+			<arction class="content">
+				<div class="arrow"><p class="afor-1"></p></div>
+				<div class="img1"></div>
+				<div class="tit-con">
+					<div class="t-tit"><b>4.000</b>升汽油</div>
+					<div class="a-tit mt20">总共加了<b>4.000</b>升汽油，花费<b>100.000</b>元，</div>
+					<div class="a-tit">可以装满可口可乐1.5升的瓶子的100个呢！</div>
+				</div>
+			</arction>
+		</section> -->
+
+		<section data-page="6" class="m-page m-page6 hide">
+			<arction class="content">
+				<div class="arrow"><p class="afor-1"></p></div>
+				<div class="img1"></div>
+				<div class="tit-con">
+					<div class="t-tit">停驶<b>168</b>小时</div>
+					<div class="a-tit mt20">您最长停<b>7</b>天，共<b>168</b>小时。</div>
+					<div class="a-tit">就让我安静的做个美男子吧。</div>
+				</div>
+			</arction>
+		</section>
+
+		<section data-page="7" class="m-page m-page7 hide">
+			<arction class="content">
+				<div class="arrow"><p class="afor-1"></p></div>
+				<div class="img1"></div>
+				<div class="img2"></div>
+				<div class="btn"></div>
+				<div class="tit-con">
+					<div class="a-tit">经过我们评测</div>
+					<div class="a-tit mt20">您荣膺<i>【超级油王】</i>的称号！</div>
+					<div class="a-tit">您的油耗花费在所有朋友中排名第1，</div>
+					<div class="a-tit">华丽丽的存在！</div>
+				</div>
+			</arction>
+		</section>
+		
+	</section>
+</body>
+
+<script type="text/javascript" src="js/zepto.js"></script>
+<script type="text/javascript" src="js/throttle.js"></script>
+<script type="text/javascript" src="js/vm3.js"></script>
+<script type="text/javascript" src="js/ui.loading.js"></script>
+
+</html>
