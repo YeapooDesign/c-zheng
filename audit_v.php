@@ -21,18 +21,16 @@
                     <input type="text" placeholder="56789">
                 </li>
             </ul>
-            <div class=" mt30">
+            <div class="mt30">
                 <div class="btn bottom_btn disabled">审核通过</div>
             </div>
-            <span class="binding_tit mt10">
-                <p class="fz16">天猫点券卡号及密码：</p>
+            <span class="binding_tit mt10 ml25 mr25">
+                <p class="fz16 color-2">天猫点券卡号及密码：</p>
                 <p class="mt10">1、8899770008928880 ，1234556     （2015-02-17）</p>
                 <p>2、8899770008928880 ，1234556     （2015-02-17）</p>
                 <p>2、8899770008928880 ，1234556     （2015-02-17）</p>
-                <p class="mt10">注：请复制以上卡号及密码登录 http://ka.tmall.com/ 进行充值，充
-       值成功后即可在天猫商城购物消费。</p>
+                <p class="mt10">注：请复制以上卡号及密码登录 http://ka.tmall.com/ 进行充值，充值成功后即可在天猫商城购物消费。</p>
             </span>
-
         </div>
     </article>
     <script type="text/javascript" src="js/zepto.js"></script>

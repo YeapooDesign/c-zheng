@@ -85,6 +85,84 @@ textarea {
 .color-1 {
   color: #e88870 !important;
 }
+.color-2 {
+  color: #333 !important;
+}
+.ml0 {
+  margin-left: 0px !important;
+}
+.ml5 {
+  margin-left: 5px !important;
+}
+.ml10 {
+  margin-left: 10px !important;
+}
+.ml15 {
+  margin-left: 15px !important;
+}
+.ml20 {
+  margin-left: 20px !important;
+}
+.ml25 {
+  margin-left: 25px !important;
+}
+.ml30 {
+  margin-left: 30px !important;
+}
+.ml50 {
+  margin-left: 50px !important;
+}
+.ml100 {
+  margin-left: 100px !important;
+}
+.ml150 {
+  margin-left: 150px !important;
+}
+.ml200 {
+  margin-left: 200px !important;
+}
+.ml250 {
+  margin-left: 250px !important;
+}
+.mr0 {
+  margin-right: 0px !important;
+}
+.mr5 {
+  margin-right: 5px !important;
+}
+.mr10 {
+  margin-right: 10px !important;
+}
+.mr15 {
+  margin-right: 15px !important;
+}
+.mr20 {
+  margin-right: 20px !important;
+}
+.mr25 {
+  margin-right: 25px !important;
+}
+.mr30 {
+  margin-right: 30px !important;
+}
+.mr50 {
+  margin-right: 50px !important;
+}
+.mr100 {
+  margin-right: 100px !important;
+}
+.mr150 {
+  margin-right: 150px !important;
+}
+.mr200 {
+  margin-right: 200px !important;
+}
+.mr250 {
+  margin-right: 250px !important;
+}
+.mt0 {
+  margin-top: 0px !important;
+}
 .mt5 {
   margin-top: 5px !important;
 }
@@ -102,6 +180,66 @@ textarea {
 }
 .mt30 {
   margin-top: 30px !important;
+}
+.mt35 {
+  margin-top: 35px !important;
+}
+.mt40 {
+  margin-top: 40px !important;
+}
+.mt45 {
+  margin-top: 45px !important;
+}
+.mt50 {
+  margin-top: 50px !important;
+}
+.mt100 {
+  margin-top: 100px !important;
+}
+.mt150 {
+  margin-top: 150px !important;
+}
+.mt200 {
+  margin-top: 200px !important;
+}
+.mt250 {
+  margin-top: 250px !important;
+}
+.mb0 {
+  margin-bottom: 0px !important;
+}
+.mb5 {
+  margin-bottom: 5px !important;
+}
+.mb10 {
+  margin-bottom: 10px !important;
+}
+.mb15 {
+  margin-bottom: 15px !important;
+}
+.mb20 {
+  margin-bottom: 20px !important;
+}
+.mb25 {
+  margin-bottom: 25px !important;
+}
+.mb30 {
+  margin-bottom: 30px !important;
+}
+.mb50 {
+  margin-bottom: 50px !important;
+}
+.mb100 {
+  margin-bottom: 100px !important;
+}
+.mb150 {
+  margin-bottom: 150px !important;
+}
+.mb200 {
+  margin-bottom: 200px !important;
+}
+.mb250 {
+  margin-bottom: 250px !important;
 }
 .fz12 {
   font-size: 12px !important;
