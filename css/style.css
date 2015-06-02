@@ -88,6 +88,9 @@ textarea {
 .color-2 {
   color: #333 !important;
 }
+.b-br {
+  border: 1px solid #f0eff4;
+}
 .ml0 {
   margin-left: 0px !important;
 }
@@ -255,6 +258,104 @@ textarea {
 }
 .fz20 {
   font-size: 20px !important;
+}
+.ui-radio,
+.ui-checkbox {
+  line-height: 45px;
+  display: inline-block;
+}
+.ui-radio input,
+.ui-checkbox input {
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  position: relative;
+  overflow: visible;
+  border: 0;
+  background: 0 0;
+  -webkit-appearance: none;
+  outline: 0;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.ui-radio input:before {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #707070;
+  border-radius: 13px;
+  background-clip: padding-box;
+  position: absolute;
+  left: 0;
+  top: -11px;
+}
+.ui-radio input:checked:before {
+  border-color: #0da982;
+}
+.ui-radio input:checked:after {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: #0da982;
+  border-radius: 7px;
+  position: absolute;
+  left: 4px;
+  top: -7px;
+}
+.ui-checkbox input:before {
+  content: '';
+  display: block;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #D2D2D2;
+  border-radius: 13px;
+  background-clip: padding-box;
+  position: absolute;
+  left: 0;
+  top: -15px;
+}
+.ui-checkbox input:checked:before {
+  background: #0da982;
+  border-color: #0da982;
+}
+.ui-checkbox input:checked:after {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 12px;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0) #ffffff #ffffff rgba(255, 255, 255, 0);
+  position: absolute;
+  left: 9px;
+  top: -10px;
+}
+.radio-cnt {
+  font-size: 14px;
+  display: box;
+  display: -webkit-box;
+  background: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.ui-radio-ii {
+  width: 150px;
+}
+.t-input {
+  box-flex: 1;
+  -webkit-box-flex: 1;
+}
+.t-input input {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  box-sizing: border-box;
+  border: none;
 }
 .flex {
   display: -ms-flexbox;
@@ -3166,4 +3267,18 @@ html#html body {
   background: #1876c8;
   font-size: 18px;
   font-weight: bold;
+}
+.zd_info {
+  padding: 10px 15px 20px 15px;
+  color: #999999;
+}
+.zd_info .t-l {
+  float: left;
+}
+.zd_info .t-l b {
+  color: #ff0000;
+  font-weight: normal;
+}
+.zd_info .t-r {
+  float: right;
 }

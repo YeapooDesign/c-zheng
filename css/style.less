@@ -17,6 +17,8 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 .color-1{color: #e88870 !important;} //橙色
 .color-2{color: #333 !important;} //黑色 #333
 
+.b-br{border: 1px solid #f0eff4;}
+
 .ml0{margin-left: 0px !important}
 .ml5{margin-left: 5px !important}
 .ml10{margin-left: 10px !important}
@@ -77,6 +79,114 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 .fz16{font-size: 16px !important;}
 .fz18{font-size: 18px !important;}
 .fz20{font-size: 20px !important;}
+
+.flexbox(){
+  display: box;
+  display: -webkit-box;
+}
+.flex(@colums){
+  box-flex:@colums;
+  -webkit-box-flex:@colums;
+}
+
+//单选，复选========开始========
+@ui-list-item-min-h:45px;
+@ct1:#0da982;
+//单选&复选
+.ui-radio,.ui-checkbox{
+  line-height: @ui-list-item-min-h;  
+  display: inline-block;
+  // margin: 5px 0;
+  input{
+    display: inline-block;
+    width: 24px;
+    height: 1px;
+    position: relative;
+    overflow: visible;
+    border: 0;
+    background: 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+}
+.ui-radio input:before{
+  content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #707070;
+  border-radius: 13px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: absolute;
+  left: 0;
+  top: -11px;
+}
+.ui-radio input:checked:before{border-color: @ct1;}
+.ui-radio input:checked:after {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: @ct1;
+  border-radius: 7px;
+  position: absolute;
+  left: 4px;
+  top: -7px;
+}
+.ui-checkbox input:before{
+  content: '';
+  display: block;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #D2D2D2;
+  border-radius: 13px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: absolute;
+  left: 0;
+  top: -15px;
+}
+.ui-checkbox input:checked:before{
+  background: @ct1;
+  border-color: @ct1;
+}
+.ui-checkbox input:checked:after {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 12px;
+  transform: rotate(45deg);
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 1) rgba(255, 255, 255, 1) rgba(255, 255, 255, 0);
+  position: absolute;
+  left: 9px;
+  top: -10px;
+}
+//单选，复选========结束========
+.radio-cnt{
+	font-size: 14px;
+	.flexbox;
+	background: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.ui-radio-ii{width: 150px;}
+.t-input{
+	.flex(1);
+	input{
+		width: 100%;
+		height: 45px;
+	  line-height: 45px;
+	  box-sizing: border-box;
+	  border: none;
+	}
+}
+
+
 
 
 .WH(@W;@H){width:@W;height:@H;}
@@ -910,3 +1020,28 @@ html#html body {height: 100%;}
 
 //养车报按钮
 .ycb-btn{margin: 20px 50px 50px 50px;background: #1876c8;font-size: 18px;font-weight: bold;}
+
+
+//挣点兑换
+.zd_info{
+	padding: 10px 15px 20px 15px;
+	color: #999999;
+	.t-l{
+		float: left;
+		b{color: #ff0000;font-weight: normal;}
+	}
+	.t-r{float: right;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
