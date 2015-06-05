@@ -3282,3 +3282,26 @@ html#html body {
 .zd_info .t-r {
   float: right;
 }
+.wx-b-sub .img {
+  width: 100%;
+}
+.wx-b-sub .img img {
+  width: 100%;
+}
+.wx-b-sub .wx-b-btn {
+  margin: 30px auto 30px;
+  font-size: 16px;
+  font-weight: lighter;
+  width: 240px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #2394eb;
+}
+.wx-b-sub .wx-b-btn a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
