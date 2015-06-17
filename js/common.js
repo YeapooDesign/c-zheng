@@ -88,4 +88,8 @@ $(function(){
        $('#J_phone_btnoff').on('click',function(){
         $('#J_phone_cons').hide();
     })
+     //扣除挣点弹出框   
+     $('#J_lx_btn').on('click',function(){
+        $('#J_kc').show();
+    })
 })
