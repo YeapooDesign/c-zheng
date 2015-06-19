@@ -3592,6 +3592,25 @@ html#html body {
   margin-top: 5px;
   margin-left: 27px;
 }
+.shareIdns-cons {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 40px;
+  background: #fff;
+  padding-bottom: 10px;
+  border-radius: 8px;
+}
+.shareIdns-cons .tit {
+  color: #FC6F5B;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 55px;
+}
+.shareIdns-cons .tit .cnt {
+  border-bottom: 1px solid #ddd;
+}
 .shareIdns-cons .img {
   width: 100%;
 }
@@ -3599,10 +3618,9 @@ html#html body {
   width: 100%;
 }
 .shareIdns-cons .wx-b-btn {
-  margin: 30px auto 30px;
+  margin: 30px 25px;
   font-size: 16px;
   font-weight: lighter;
-  width: 240px;
   height: 45px;
   line-height: 45px;
   text-align: center;
