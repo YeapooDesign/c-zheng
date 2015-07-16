@@ -91,6 +91,12 @@ textarea {
 .b-br {
   border: 1px solid #f0eff4;
 }
+.pull-l {
+  float: left;
+}
+.pull-r {
+  float: right;
+}
 .pl0 {
   padding-left: 0px !important;
 }
@@ -905,6 +911,84 @@ textarea {
 }
 .article .Traveling .style_box ul li:nth-child(2) span::after {
   background: #fdbe33;
+}
+.article .Traveling .smooth_value .tit_name {
+  text-align: center;
+  color: #727171;
+  line-height: 40px;
+  font-size: 14px;
+}
+.article .Traveling .smooth_value .value_cnt {
+  position: relative;
+  border-bottom: 1px solid #e5e5e5;
+}
+.article .Traveling .smooth_value .value_cnt .cnt {
+  background: url(../images/smooth_value.jpg) no-repeat;
+  background-size: cover;
+  width: 320px;
+  height: 37px;
+  margin: 0 auto;
+}
+.article .Traveling .smooth_value .value_cnt .top_value {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  margin-left: -133px;
+  width: 270px;
+}
+.article .Traveling .smooth_value .value_cnt .top_value .value_img {
+  background: url(../images/value_img.jpg) repeat;
+  width: 270px;
+  height: 12px;
+  border-radius: 12px;
+}
+.article .Traveling .smooth_value .value_cnt .value_title {
+  padding-bottom: 15px;
+  width: 275px;
+  margin: 5px auto 0px;
+  color: #b2b2b2;
+  font-size: 12px;
+}
+.article .Traveling .smooth_value .value_cnt .value_title .l-tit {
+  float: left;
+}
+.article .Traveling .smooth_value .value_cnt .value_title .r-tit {
+  float: right;
+}
+.article .Traveling .two_circle {
+  padding-bottom: 20px;
+}
+.article .Traveling .two_circle .cnt {
+  width: 230px;
+  margin: 15px auto 0px;
+}
+.article .Traveling .two_circle .cnt .zt_cnt {
+  background: url(../images/half_circle_1.jpg) no-repeat;
+  background-size: cover;
+  width: 69px;
+  height: 57px;
+  line-height: 62px;
+  text-align: center;
+  color: #717171;
+}
+.article .Traveling .two_circle .cnt .active {
+  background: url(../images/half_circle_2.jpg) no-repeat;
+  background-size: cover;
+  width: 69px;
+  height: 57px;
+  color: #ff8012;
+}
+.article .Traveling .two_circle .circle_title {
+  width: 216px;
+  margin: 5px auto 0px;
+  font-size: 14px;
+  color: #717171;
+}
+.article .Traveling .two_circle .circle_title .l-tit {
+  float: left;
+}
+.article .Traveling .two_circle .circle_title .r-tit {
+  float: right;
 }
 .index_head {
   background: #fff;

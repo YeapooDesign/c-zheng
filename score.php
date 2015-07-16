@@ -41,6 +41,29 @@
                                 <li><span>急减速</span><div><b>2</b>次</div></li>
                                 <li><span>急转弯</span><div><b>1</b>次</div></li>
                             </ul>
+                            <div class="smooth_value">
+                                <div class="tit_name">平稳指数</div>
+                                <div class="value_cnt">
+                                    <div class="cnt"></div>
+                                    <div class="top_value" >
+                                        <div class="value_img" style="width:100%;"></div>
+                                    </div>
+                                    <div class="value_title clearfix">
+                                        <div class="l-tit">稳定</div>
+                                        <div class="r-tit">不稳定</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="two_circle">
+                                <div class="cnt clearfix">
+                                    <div class="zt_cnt pull-l">无</div>
+                                    <div class="zt_cnt pull-r active">有</div>
+                                </div>
+                                <div class="circle_title clearfix">
+                                    <div class="l-tit">疲劳驾驶</div>
+                                    <div class="r-tit">超速驾驶</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </li>

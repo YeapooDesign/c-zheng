@@ -19,6 +19,9 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 
 .b-br{border: 1px solid #f0eff4;}
 
+.pull-l{float: left;}
+.pull-r{float: right;}
+
 // padding
 .pl0{padding-left: 0px !important}
 .pl5{padding-left: 5px !important}
@@ -376,6 +379,57 @@ input,button,select,textarea{outline:none;-webkit-appearance:none;outline:none}
 					span{position: relative; &::after{content: '';width: 5px;height: 5px;.radius(1px); position: absolute;left:-14px;top: 8px;background: #ff7c34;}}
 					&:nth-child(2) span::after{background: #fdbe33;}
 				}
+			}
+		}
+		.smooth_value{
+			.tit_name{text-align: center;color: #727171;line-height: 40px;font-size: 14px;}
+			.value_cnt{
+				position: relative;
+				border-bottom:1px solid #e5e5e5;
+				.cnt{
+					background:url(../images/smooth_value.jpg) no-repeat;background-size: cover;.WH(320px;37px); margin: 0 auto;
+				}
+				.top_value{
+						position: absolute;
+						top: 24px;
+						left: 50%;
+						margin-left: -133px;
+						width: 270px;
+						.value_img{
+							background:url(../images/value_img.jpg) repeat;
+							.WH(270px;12px);
+							border-radius: 12px;
+						}
+						// .value_img{
+						// 	transition: width .5s ease-out;
+						// 	height: 12px;
+						// 	border-radius: 12px;
+						//   background-image: linear-gradient(to right, #3aac21 0%, #fc8b11 100%);
+						// }
+					}
+				.value_title{
+					padding-bottom: 15px;
+					width: 275px;margin: 5px auto 0px;
+					color: #b2b2b2;
+					font-size: 12px;
+					.l-tit{float: left;}
+					.r-tit{float: right;}
+				}
+			}
+		}
+		.two_circle{
+			padding-bottom: 20px;
+			.cnt{
+				width: 230px;margin: 15px auto 0px;
+				.zt_cnt{background:url(../images/half_circle_1.jpg) no-repeat;background-size: cover;.WH(69px;57px);line-height: 62px;text-align: center;color: #717171;}
+				.active{background:url(../images/half_circle_2.jpg) no-repeat;background-size: cover;.WH(69px;57px);color: #ff8012;}
+			}
+			.circle_title{
+				width: 216px;margin: 5px auto 0px;
+				font-size: 14px;
+				color: #717171;
+				.l-tit{float: left;}
+				.r-tit{float: right;}
 			}
 		}
 	}
@@ -1182,7 +1236,7 @@ html#html body {height: 100%;}
 	}
 }
 
-
+//
 
 
 
