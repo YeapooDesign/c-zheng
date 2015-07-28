@@ -3717,3 +3717,176 @@ html#html body {
   width: 100%;
   color: #fff;
 }
+.h5-cons {
+  position: relative;
+}
+.h5-cons .h5-bg img {
+  width: 100%;
+}
+.h5-cons .hbtn {
+  display: block;
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+}
+.h5-cons .btn1-1 {
+  width: 11rem;
+  height: 2rem;
+  bottom: 3.2rem;
+  left: 2.75rem;
+}
+.h5-cons .btn2-1 {
+  width: 6rem;
+  height: 2.25rem;
+  bottom: 3.2rem;
+  left: 1.1rem;
+}
+.h5-cons .btn2-2 {
+  width: 6rem;
+  height: 2.25rem;
+  bottom: 3.2rem;
+  right: 1.1rem;
+}
+.h5-cons .btn3-1 {
+  width: 6rem;
+  height: 2.25rem;
+  top: 10.75rem;
+  left: 1.4rem;
+}
+.h5-cons .btn3-2 {
+  width: 6rem;
+  height: 2.25rem;
+  top: 16.5rem;
+  left: 1.4rem;
+}
+.h5-cons .btn3-3 {
+  width: 6rem;
+  height: 2.25rem;
+  top: 22rem;
+  left: 1.4rem;
+}
+.h5-cons .btn3-4 {
+  width: 6rem;
+  height: 2.25rem;
+  top: 10.75rem;
+  right: 1.25rem;
+}
+.h5-cons .btn3-5 {
+  width: 6rem;
+  height: 2.25rem;
+  top: 16.5rem;
+  right: 1.25rem;
+}
+.h5-cons .btn3-6 {
+  width: 6rem;
+  height: 2.25rem;
+  top: 22rem;
+  right: 1.25rem;
+}
+.h5-cons .btn4-1 {
+  width: 7rem;
+  height: 6rem;
+  top: 11rem;
+  left: 1rem;
+}
+.h5-cons .btn4-2 {
+  width: 7rem;
+  height: 6rem;
+  top: 18.25rem;
+  left: 1rem;
+}
+.h5-cons .btn4-3 {
+  width: 7rem;
+  height: 6rem;
+  top: 11rem;
+  right: 0.8rem;
+}
+.h5-cons .btn4-4 {
+  width: 7rem;
+  height: 6rem;
+  top: 18.25rem;
+  right: 0.8rem;
+}
+.h5-cons .btn6-1 {
+  width: 7rem;
+  height: 6rem;
+  top: 12rem;
+  left: 1rem;
+}
+.h5-cons .btn6-2 {
+  width: 7rem;
+  height: 6rem;
+  top: 19.25rem;
+  left: 1rem;
+}
+.h5-cons .btn6-3 {
+  width: 7rem;
+  height: 6rem;
+  top: 12rem;
+  right: 0.8rem;
+}
+.h5-cons .btn6-4 {
+  width: 7rem;
+  height: 6rem;
+  top: 19.25rem;
+  right: 0.8rem;
+}
+.h5-cons .btn7-1 {
+  width: 11rem;
+  height: 2.25rem;
+  bottom: 1.75rem;
+  left: 4.4rem;
+}
+.h5-cons .btn11-1 {
+  width: 11rem;
+  height: 2.25rem;
+  bottom: 1.75rem;
+  left: 3rem;
+}
+.h5-cons .htext {
+  font-weight: bold;
+  position: absolute;
+  font-size: 0.8rem;
+  color: #e66112;
+  -webkit-transform: rotate(-2deg);
+      -ms-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+}
+.h5-cons .htext span {
+  color: #f6f5f5;
+  font-size: 0.7rem;
+}
+.h5-cons .text7-1 {
+  top: 12.85rem;
+  left: 7.5rem;
+}
+.h5-cons .text7-2 {
+  top: 14.1rem;
+  left: 7rem;
+}
+.h5-cons .text7-3 {
+  top: 15.35rem;
+  left: 5.5rem;
+}
+.h5-cons .text7-4 {
+  top: 16.6rem;
+  left: 5.5rem;
+}
+.h5-cons .text7-5 {
+  top: 19.1rem;
+  left: 11.25rem;
+}
+.h5-cons .text7-6 {
+  top: 20.35rem;
+  left: 11.25rem;
+}
+.h5-cons .text7-7 {
+  top: 21.6rem;
+  left: 5.25rem;
+}
+.h5-cons .text11-1 {
+  bottom: 4.9rem;
+  left: 11rem;
+  -webkit-transform: rotate(-1deg);
+      -ms-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+}
