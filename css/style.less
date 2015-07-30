@@ -1236,9 +1236,44 @@ html#html body {height: 100%;}
 	}
 }
 
-//车挣数据中心
+//车挣数据中心=================开始====================
+
+	//需要的动画
+	.swing{-webkit-animation:swing 1.3s 0s linear both infinite;}
+		@-webkit-keyframes swing {
+		  25% {
+		    -webkit-transform: rotate3d(0, 0, 1, 7deg);
+		            transform: rotate3d(0, 0, 1, 7deg);
+		  }
+
+		  50% {
+		    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+		            transform: rotate3d(0, 0, 1, 0deg);
+		  }
+
+		  75% {
+		    -webkit-transform: rotate3d(0, 0, 1, -7deg);
+		            transform: rotate3d(0, 0, 1, -7deg);
+		  }
+
+		  100% {
+		    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+		            transform: rotate3d(0, 0, 1, 0deg);
+		  }
+		}
+
 .h5-cons{
 	position: relative;
+	.zheng-tt{
+		background: url(../images/zheng-tit.png) no-repeat;
+		width: 430/2.3*@rem;
+		height: 132/2.3*@rem;
+		background-size: cover;
+		position: absolute;
+		top: 100*@rem;
+		left: 49*@rem;
+		.swing;
+	}
 	.h5-bg{
 		img{width: 100%;}
 	}
@@ -1404,7 +1439,7 @@ html#html body {height: 100%;}
 	}
 
 }
-
+//车震数据中心=================结束================
 
 
 

@@ -3717,8 +3717,39 @@ html#html body {
   width: 100%;
   color: #fff;
 }
+.swing {
+  -webkit-animation: swing 1.3s 0s linear both infinite;
+}
+@-webkit-keyframes swing {
+  25% {
+    -webkit-transform: rotate3d(0, 0, 1, 7deg);
+    transform: rotate3d(0, 0, 1, 7deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  75% {
+    -webkit-transform: rotate3d(0, 0, 1, -7deg);
+    transform: rotate3d(0, 0, 1, -7deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
 .h5-cons {
   position: relative;
+}
+.h5-cons .zheng-tt {
+  background: url(../images/zheng-tit.png) no-repeat;
+  width: 9.34782609rem;
+  height: 2.86956522rem;
+  background-size: cover;
+  position: absolute;
+  top: 5rem;
+  left: 2.45rem;
+  -webkit-animation: swing 1.3s 0s linear both infinite;
 }
 .h5-cons .h5-bg img {
   width: 100%;
