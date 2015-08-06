@@ -1,4 +1,4 @@
-/*! @czapp Date: 2015-05-21, 12:06:26 PM */
+/*! @czapp Date: 2015-08-06, 11:16:59 AM */
 /**
 *
 * 变量
@@ -988,13 +988,13 @@ i {
   background-size: cover;
 }
 .m-page7 .tit-con {
-  top: 9.25rem;
+  top: 13rem;
 }
 .m-page7 .img1 {
   background-image: url(../img/page7-1.jpg);
   background-repeat: no-repeat;
   width: 100%;
-  height: 10.075rem;
+  height: 13.425rem;
   background-size: cover;
 }
 .m-page7 .img2 {
@@ -1013,7 +1013,7 @@ i {
   height: 2.075rem;
   background-size: cover;
   position: absolute;
-  top: 16rem;
+  top: 19.25rem;
   left: 4.5rem;
 }
 .arrow {
