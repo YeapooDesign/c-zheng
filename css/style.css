@@ -3921,3 +3921,25 @@ html#html body {
       -ms-transform: rotate(-1deg);
           transform: rotate(-1deg);
 }
+.free-rent {
+  position: relative;
+}
+.free-rent .bg img {
+  width: 100%;
+}
+.free-rent .btn {
+  background: rgba(255, 255, 255, 0);
+  position: absolute;
+}
+.free-rent .btn-t {
+  width: 6rem;
+  height: 2rem;
+  top: 6.5rem;
+  left: 5.25rem;
+}
+.free-rent .btn-b {
+  width: 4rem;
+  height: 1rem;
+  bottom: 0.5rem;
+  left: 6.5rem;
+}

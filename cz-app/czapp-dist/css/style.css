@@ -1,4 +1,4 @@
-/*! @czapp Date: 2015-08-06, 11:16:59 AM */
+/*! @czapp Date: 2015-08-12, 11:01:55 AM */
 /**
 *
 * 变量
@@ -915,7 +915,7 @@ i {
   margin-top: 10px;
 }
 .m-page1 .tit-con {
-  top: 8.5rem;
+  top: 10rem;
 }
 .m-page1 .img1 {
   background-image: url(../img/page1-1.jpg);
@@ -924,12 +924,27 @@ i {
   height: 20.4rem;
   background-size: cover;
 }
+.m-page1 .user-picture {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+  top: 7rem;
+  left: 50%;
+  margin-left: -1.5rem;
+  overflow: hidden;
+  border: 2px solid #fff;
+}
+.m-page1 .user-picture img {
+  max-width: 100%;
+}
 .m-page1 .day {
   position: absolute;
-  top: 12.75rem;
+  top: 12.25rem;
   width: 100%;
   text-align: center;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
 }
 .m-page1 .day .t-tit {
   font-size: 0.8rem;
@@ -1015,6 +1030,16 @@ i {
   position: absolute;
   top: 19.25rem;
   left: 4.5rem;
+}
+.m-page7 .qr-code {
+  background-image: url(../img/qr-code.png);
+  background-repeat: no-repeat;
+  width: 4.7rem;
+  height: 5.1rem;
+  background-size: cover;
+  position: absolute;
+  top: 16.5rem;
+  left: 5.6rem;
 }
 .arrow {
   position: fixed;
