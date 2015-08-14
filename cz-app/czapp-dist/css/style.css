@@ -1,4 +1,4 @@
-/*! @czapp Date: 2015-08-13, 4:29:20 PM */
+/*! @czapp Date: 2015-08-14, 3:03:26 PM */
 /**
 *
 * 变量
@@ -859,6 +859,15 @@ i {
   font-size: 1rem;
   color: #fcd61b;
 }
+.mt5 {
+  margin-top: 5px !important;
+}
+.mt10 {
+  margin-top: 10px !important;
+}
+.mt15 {
+  margin-top: 15px !important;
+}
 .mt20 {
   margin-top: 20px !important;
 }
@@ -912,7 +921,7 @@ i {
 .a-tit {
   color: #c6c6c6;
   font-size: 0.7rem;
-  margin-top: 10px;
+  margin-top: 6px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -964,6 +973,12 @@ i {
 }
 .m-page8 .tit-con {
   top: 12.5rem;
+}
+.m-page8 .tit-con-l {
+  text-align: left;
+  width: 12.5rem;
+  left: 50%;
+  margin-left: -4.5rem;
 }
 .m-page8 .img1 {
   background-image: url(../img/page8-1.jpg);
@@ -1022,15 +1037,6 @@ i {
   height: 13.425rem;
   background-size: cover;
 }
-.m-page7 .img2 {
-  background-image: url(../img/page7-2.jpg);
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 4.675rem;
-  background-size: cover;
-  position: absolute;
-  bottom: 0px;
-}
 .m-page7 .btn {
   background-image: url(../img/btn.png);
   background-repeat: no-repeat;
@@ -1041,15 +1047,24 @@ i {
   top: 19.25rem;
   left: 4.5rem;
 }
-.m-page7 .qr-code {
-  background-image: url(../img/qr-code.png);
+.m-page9 .img1 {
+  background-image: url(../img/page7-2.jpg);
   background-repeat: no-repeat;
-  width: 4.7rem;
-  height: 5.1rem;
+  width: 100%;
+  height: 4.675rem;
   background-size: cover;
   position: absolute;
-  top: 16.5rem;
-  left: 5.6rem;
+  bottom: 0px;
+}
+.m-page9 .qr-code {
+  background-image: url(../img/qr-code.png);
+  background-repeat: no-repeat;
+  width: 7.5rem;
+  height: 8.75rem;
+  background-size: cover;
+  position: absolute;
+  top: 5rem;
+  left: 4.25rem;
 }
 .arrow {
   position: fixed;
