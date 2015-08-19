@@ -3921,6 +3921,692 @@ html#html body {
       -ms-transform: rotate(-1deg);
           transform: rotate(-1deg);
 }
+.swing {
+  -webkit-animation: swing 1.3s 0s linear both infinite;
+}
+@-webkit-keyframes swing {
+  25% {
+    -webkit-transform: rotate3d(0, 0, 1, 7deg);
+    transform: rotate3d(0, 0, 1, 7deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  75% {
+    -webkit-transform: rotate3d(0, 0, 1, -7deg);
+    transform: rotate3d(0, 0, 1, -7deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+.fadeIn {
+  -webkit-animation: fadeIn 1.5s 0s linear both ;
+}
+.fadeIn-2 {
+  -webkit-animation: fadeIn 1s 0.8s linear both ;
+}
+.fadeIn-3 {
+  -webkit-animation: fadeIn 1s 1.5s linear both ;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeInDownBig {
+  -webkit-animation: fadeInDownBig 1s 0s linear both ;
+}
+@-webkit-keyframes fadeInDownBig {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: translate3d(0, -1000px, 0);
+    transform: translate3d(0, -1000px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInDownBig {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: translate3d(0, -1000px, 0);
+    transform: translate3d(0, -1000px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInDownss {
+  -webkit-animation: fadeInDownss 1s 1.2s ease both ;
+}
+@-webkit-keyframes fadeInDownss {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -10px, 0);
+            transform: translate3d(0, -10px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@keyframes fadeInDownss {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -10px, 0);
+            transform: translate3d(0, -10px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+.fadeInUpBig {
+  -webkit-animation: fadeInUpBig 1s 1s linear both ;
+}
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: translate3d(0, 1000px, 0);
+    transform: translate3d(0, 1000px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUpBig {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: translate3d(0, 1000px, 0);
+    transform: translate3d(0, 1000px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInLeftBig {
+  -webkit-animation: fadeInLeftBig 1.5s 0.5s linear both ;
+}
+@-webkit-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: translate3d(-1000px, 0, 0);
+    transform: translate3d(-1000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: translate3d(-1000px, 0, 0);
+    transform: translate3d(-1000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInRightBig {
+  -webkit-animation: fadeInRightBig 1.5s 1s ease both ;
+}
+.fadeInRightBig2 {
+  -webkit-animation: fadeInRightBig 2s 0s ease both ;
+}
+@-webkit-keyframes fadeInRightBig {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: translate3d(1000px, 0, 0);
+    transform: translate3d(1000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInRightBig {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: translate3d(1000px, 0, 0);
+    transform: translate3d(1000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInRightBigss {
+  -webkit-animation: fadeInRightBigss 1.2s 0s ease both ;
+}
+@-webkit-keyframes fadeInRightBigss {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(30px, 0, 0);
+            transform: translate3d(30px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@keyframes fadeInRightBigss {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(30px, 0, 0);
+            transform: translate3d(30px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+.zoomIn {
+  -webkit-animation: zoomIn 1.5s 0s ease both ;
+}
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.Y5-body-bg {
+  background: #ECC34D;
+}
+.Y5-cons {
+  position: relative;
+}
+.Y5-cons .Y5-bg img {
+  width: 100%;
+}
+.Y5-cons .sc-con-1 .sc-1 {
+  background: url(../images/Y5-zheng-tit.png) no-repeat;
+  width: 8.69565217rem;
+  height: 2.60869565rem;
+  background-size: cover;
+  position: absolute;
+  top: 4.9rem;
+  left: 3.1rem;
+  -webkit-animation: swing 1.3s 0s linear both infinite;
+}
+.Y5-cons .sc-con-2 .sc-1 {
+  background: url(../images/sc-2-1.png) no-repeat;
+  width: 2.9rem;
+  height: 2.6rem;
+  background-size: cover;
+  position: absolute;
+  top: 13.5rem;
+  left: 2.5rem;
+  -webkit-animation: fadeIn 1.5s 0s linear both ;
+}
+.Y5-cons .sc-con-2 .sc-2 {
+  background: url(../images/sc-2-2.png) no-repeat;
+  width: 3.075rem;
+  height: 2.75rem;
+  background-size: cover;
+  position: absolute;
+  top: 11.5rem;
+  right: 2.5rem;
+  -webkit-animation: fadeIn 1s 0.8s linear both ;
+}
+.Y5-cons .sc-con-3 .sc-1 {
+  background: url(../images/sc-3-1.png) no-repeat;
+  width: 3.04347826rem;
+  height: 2.82608696rem;
+  background-size: cover;
+  position: absolute;
+  top: 8.15rem;
+  right: 3.25rem;
+  -webkit-animation: fadeIn 1.5s 0s linear both ;
+}
+.Y5-cons .sc-con-3 .sc-2 {
+  background: url(../images/sc-3-2.png) no-repeat;
+  width: 3.05rem;
+  height: 2.675rem;
+  background-size: cover;
+  position: absolute;
+  top: 14.5rem;
+  left: 1rem;
+  -webkit-animation: fadeIn 1s 0.8s linear both ;
+}
+.Y5-cons .sc-con-3 .sc-3 {
+  background: url(../images/sc-3-3.png) no-repeat;
+  width: 2.975rem;
+  height: 2.375rem;
+  background-size: cover;
+  position: absolute;
+  top: 15.5rem;
+  right: 1rem;
+  -webkit-animation: fadeIn 1s 1.5s linear both ;
+}
+.Y5-cons .sc-con-4 .sc-1 {
+  background: url(../images/sc-4-1.png) no-repeat;
+  width: 10.30434783rem;
+  height: 3.13043478rem;
+  background-size: cover;
+  position: absolute;
+  top: 8.15rem;
+  left: 3rem;
+  -webkit-animation: fadeInDownBig 1s 0s linear both ;
+}
+.Y5-cons .sc-con-4 .sc-2 {
+  background: url(../images/sc-4-2.png) no-repeat;
+  width: 16.30434783rem;
+  height: 13.26086957rem;
+  background-size: cover;
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+  -webkit-animation: fadeInUpBig 1s 1s linear both ;
+}
+.Y5-cons .sc-con-5 .sc-1 {
+  background: url(../images/sc-5-1.png) no-repeat;
+  width: 2.45652174rem;
+  height: 2.30434783rem;
+  background-size: cover;
+  position: absolute;
+  top: 8.5rem;
+  right: 3.5rem;
+  -webkit-animation: fadeIn 1.5s 0s linear both ;
+}
+.Y5-cons .sc-con-5 .sc-2 {
+  background: url(../images/sc-5-2.png) no-repeat;
+  width: 3.02173913rem;
+  height: 1.52173913rem;
+  background-size: cover;
+  position: absolute;
+  bottom: 11rem;
+  left: 4rem;
+  -webkit-animation: fadeInLeftBig 1.5s 0.5s linear both ;
+}
+.Y5-cons .sc-con-5 .sc-3 {
+  background: url(../images/sc-5-3.png) no-repeat;
+  width: 2.95652174rem;
+  height: 1.47826087rem;
+  background-size: cover;
+  position: absolute;
+  bottom: 11rem;
+  right: 3.5rem;
+  -webkit-animation: fadeInRightBig 1.5s 1s ease both ;
+}
+.Y5-cons .sc-con-6 .sc-1 {
+  background: url(../images/sc-6-1.png) no-repeat;
+  width: 2.82608696rem;
+  height: 2.39130435rem;
+  background-size: cover;
+  position: absolute;
+  top: 11.5rem;
+  left: 3.25rem;
+  -webkit-animation: fadeIn 1.5s 0s linear both ;
+}
+.Y5-cons .sc-con-6 .sc-2 {
+  background: url(../images/sc-6-2.png) no-repeat;
+  width: 2.60869565rem;
+  height: 1.52173913rem;
+  background-size: cover;
+  position: absolute;
+  bottom: 5.5rem;
+  right: 2.5rem;
+  -webkit-animation: fadeInRightBig 1.5s 1s ease both ;
+}
+.Y5-cons .sc-con-7 .sc-1 {
+  background: url(../images/sc-7-1.png) no-repeat;
+  width: 13.86956522rem;
+  height: 10.52173913rem;
+  background-size: cover;
+  position: absolute;
+  top: 9rem;
+  left: 1.25rem;
+  -webkit-animation: fadeInRightBig 2s 0s ease both ;
+}
+.Y5-cons .sc-con-8 .sc-1 {
+  background: url(../images/sc-8-1.png) no-repeat;
+  width: 9.02173913rem;
+  height: 13.30434783rem;
+  background-size: cover;
+  position: absolute;
+  top: 8rem;
+  left: 3.5rem;
+  -webkit-animation: zoomIn 1.5s 0s ease both ;
+}
+.Y5-cons .sc-con-9 .sc-1 {
+  background: url(../images/sc-9-1.png) no-repeat;
+  width: 3.23913043rem;
+  height: 0.95652174rem;
+  background-size: cover;
+  position: absolute;
+  top: 13.9rem;
+  left: 6.75rem;
+  -webkit-animation: fadeIn 1s 0.8s linear both ;
+}
+.Y5-cons .sc-con-10 .sc-1,
+.Y5-cons .sc-con-11 .sc-1,
+.Y5-cons .sc-con-12 .sc-1,
+.Y5-cons .sc-con-13 .sc-1 {
+  background: url(../images/sc-10-1.png) no-repeat;
+  width: 13.04347826rem;
+  height: 11.95652174rem;
+  background-size: cover;
+  position: absolute;
+  top: 0rem;
+  left: 1.5rem;
+}
+.Y5-cons .sc-con-10 .sc-2,
+.Y5-cons .sc-con-11 .sc-2,
+.Y5-cons .sc-con-12 .sc-2,
+.Y5-cons .sc-con-13 .sc-2 {
+  background: url(../images/sc-10-2.png) no-repeat;
+  width: 2.82608696rem;
+  height: 2.54347826rem;
+  background-size: cover;
+  position: absolute;
+  top: 13.5rem;
+  left: 3.5rem;
+  -webkit-animation: fadeIn 1.5s 0s linear both ;
+}
+.Y5-cons .sc-con-10 .sc-3,
+.Y5-cons .sc-con-11 .sc-3,
+.Y5-cons .sc-con-12 .sc-3,
+.Y5-cons .sc-con-13 .sc-3 {
+  background: url(../images/sc-10-3.png) no-repeat;
+  width: 1rem;
+  height: 1.56521739rem;
+  background-size: cover;
+  position: absolute;
+  top: 10.5rem;
+  right: 3.5rem;
+  -webkit-animation: fadeInDownss 1s 1.2s ease both ;
+}
+.Y5-cons .sc-con-11 .sc-1 {
+  background: url(../images/sc-11-1.png) no-repeat;
+  width: 13.04347826rem;
+  height: 11.95652174rem;
+  background-size: cover;
+  position: absolute;
+  top: 0rem;
+  left: 1.5rem;
+}
+.Y5-cons .sc-con-12 .sc-1 {
+  background: url(../images/sc-12-1.png) no-repeat;
+  width: 13.04347826rem;
+  height: 11.95652174rem;
+  background-size: cover;
+  position: absolute;
+  top: 0rem;
+  left: 1.5rem;
+}
+.Y5-cons .sc-con-13 .sc-1 {
+  background: url(../images/sc-13-1.png) no-repeat;
+  width: 13.04347826rem;
+  height: 11.95652174rem;
+  background-size: cover;
+  position: absolute;
+  top: 0rem;
+  left: 1.5rem;
+}
+.Y5-cons .sc-con-14 .sc-1 {
+  background: url(../images/sc-14-1.png) no-repeat;
+  width: 12.04347826rem;
+  height: 7.34782609rem;
+  background-size: cover;
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+}
+.Y5-cons .sc-con-14 .sc-2 {
+  background: url(../images/sc-14-2.png) no-repeat;
+  width: 5.97826087rem;
+  height: 6.02173913rem;
+  background-size: cover;
+  position: absolute;
+  top: 4rem;
+  right: 0.75rem;
+  -webkit-animation: fadeInRightBigss 1.2s 0s ease both ;
+}
+.Y5-cons .sc-con-15 .sc-1 {
+  background: url(../images/sc-15-1.png) no-repeat;
+  width: 14.26086957rem;
+  height: 6.56521739rem;
+  background-size: cover;
+  position: absolute;
+  top: 2.25rem;
+  left: 0.25rem;
+}
+.Y5-cons .sc-con-15 .sc-2 {
+  background: url(../images/sc-15-2.png) no-repeat;
+  width: 5.97826087rem;
+  height: 6.02173913rem;
+  background-size: cover;
+  position: absolute;
+  top: 4rem;
+  right: 0.75rem;
+  -webkit-animation: fadeInRightBigss 1.2s 0s ease both ;
+}
+.Y5-cons .sc-con-16 .sc-1 {
+  background: url(../images/sc-16-1.png) no-repeat;
+  width: 13.7826087rem;
+  height: 6.04347826rem;
+  background-size: cover;
+  position: absolute;
+  top: 2.25rem;
+  left: 0.75rem;
+}
+.Y5-cons .sc-con-16 .sc-2 {
+  background: url(../images/sc-16-2.png) no-repeat;
+  width: 5.97826087rem;
+  height: 6.02173913rem;
+  background-size: cover;
+  position: absolute;
+  top: 4rem;
+  right: 0.75rem;
+  -webkit-animation: fadeInRightBigss 1.2s 0s ease both ;
+}
+.Y5-cons .sc-con-17 .sc-1 {
+  background: url(../images/sc-17-1.png) no-repeat;
+  width: 11.15217391rem;
+  height: 7rem;
+  background-size: cover;
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+}
+.Y5-cons .sc-con-17 .sc-2 {
+  background: url(../images/sc-17-2.png) no-repeat;
+  width: 5.32608696rem;
+  height: 5.69565217rem;
+  background-size: cover;
+  position: absolute;
+  top: 3.7rem;
+  right: 0.5rem;
+  -webkit-animation: fadeInRightBigss 1.2s 0s ease both ;
+}
+.Y5-cons .hbtn {
+  display: block;
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+}
+.Y5-cons .btn1-1 {
+  width: 10rem;
+  height: 2rem;
+  bottom: 1.75rem;
+  left: 3rem;
+}
+.Y5-cons .btn2-1 {
+  width: 5rem;
+  height: 2rem;
+  bottom: 1.75rem;
+  left: 2.5rem;
+}
+.Y5-cons .btn2-2 {
+  width: 5rem;
+  height: 2rem;
+  bottom: 1.75rem;
+  right: 2.25rem;
+}
+.Y5-cons .btn3-1 {
+  width: 8rem;
+  height: 1.75rem;
+  bottom: 4.75rem;
+  left: 4.5rem;
+}
+.Y5-cons .btn3-2 {
+  width: 8rem;
+  height: 1.75rem;
+  bottom: 2rem;
+  left: 4.5rem;
+}
+.Y5-cons .btn4-1 {
+  width: 3.5rem;
+  height: 2.5rem;
+  bottom: 8.5rem;
+  left: 4rem;
+}
+.Y5-cons .btn4-2 {
+  width: 3.5rem;
+  height: 2.5rem;
+  bottom: 8.5rem;
+  right: 3.75rem;
+}
+.Y5-cons .btn4-3 {
+  width: 3.5rem;
+  height: 2.5rem;
+  bottom: 4.25rem;
+  left: 4rem;
+}
+.Y5-cons .btn4-4 {
+  width: 3.5rem;
+  height: 2.5rem;
+  bottom: 4.25rem;
+  right: 3.75rem;
+}
+.Y5-cons .btn5-1 {
+  width: 3.25rem;
+  height: 2.25rem;
+  bottom: 5.5rem;
+  left: 4.35rem;
+}
+.Y5-cons .btn5-2 {
+  width: 3.25rem;
+  height: 2.25rem;
+  bottom: 5.5rem;
+  right: 4rem;
+}
+.Y5-cons .btn5-3 {
+  width: 3.25rem;
+  height: 2.25rem;
+  bottom: 2.1rem;
+  left: 4.35rem;
+}
+.Y5-cons .btn5-4 {
+  width: 3.25rem;
+  height: 2.25rem;
+  bottom: 2.1rem;
+  right: 4rem;
+}
+.Y5-cons .btn6-1 {
+  width: 8.5rem;
+  height: 1.9rem;
+  bottom: 2.1rem;
+  left: 4rem;
+}
+.Y5-cons .btn7-1 {
+  width: 8.5rem;
+  height: 1.9rem;
+  bottom: 2.1rem;
+  left: 4rem;
+}
+.Y5-cons .btn14-1 {
+  width: 9.5rem;
+  height: 2.25rem;
+  bottom: 1.5rem;
+  left: 4rem;
+}
+.Y5-cons .htext {
+  font-weight: bold;
+  position: absolute;
+  font-size: 0.7rem;
+  color: #db6118;
+  -webkit-transform: rotate(-2deg);
+      -ms-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+}
+.Y5-cons .htext span {
+  color: #ba1d21;
+  font-size: 0.6rem;
+}
+.Y5-cons .text7-1 {
+  top: 10.75rem;
+  left: 7.5rem;
+}
+.Y5-cons .text7-2 {
+  top: 12rem;
+  left: 7rem;
+}
+.Y5-cons .text7-3 {
+  top: 13.25rem;
+  left: 5.5rem;
+}
+.Y5-cons .text7-4 {
+  top: 14.5rem;
+  left: 5.5rem;
+}
+.Y5-cons .text7-5 {
+  top: 17rem;
+  left: 11.25rem;
+}
+.Y5-cons .text7-6 {
+  top: 18.25rem;
+  left: 11.25rem;
+}
+.Y5-cons .text7-7 {
+  top: 19.5rem;
+  left: 5.25rem;
+}
 .free-rent {
   position: relative;
 }

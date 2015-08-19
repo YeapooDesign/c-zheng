@@ -1442,6 +1442,618 @@ html#html body {height: 100%;}
 //车震数据中心=================结束================
 
 
+//Y5 动画页面=================开始========================
+
+	//需要的动画库-------------------
+	.swing{-webkit-animation:swing 1.3s 0s linear both infinite;}
+		@-webkit-keyframes swing {
+		  25% {
+		    -webkit-transform: rotate3d(0, 0, 1, 7deg);
+		            transform: rotate3d(0, 0, 1, 7deg);
+		  }
+
+		  50% {
+		    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+		            transform: rotate3d(0, 0, 1, 0deg);
+		  }
+
+		  75% {
+		    -webkit-transform: rotate3d(0, 0, 1, -7deg);
+		            transform: rotate3d(0, 0, 1, -7deg);
+		  }
+
+		  100% {
+		    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+		            transform: rotate3d(0, 0, 1, 0deg);
+		  }
+		}
+		
+		.fadeIn{-webkit-animation:fadeIn 1.5s 0s linear both ;}
+		.fadeIn-2{-webkit-animation:fadeIn 1s 0.8s linear both ;}
+		.fadeIn-3{-webkit-animation:fadeIn 1s 1.5s linear both ;}
+		@keyframes fadeIn {
+		  0% {opacity: 0;}
+		  100% {opacity: 1;}
+		}
+
+		.fadeInDownBig{-webkit-animation:fadeInDownBig 1s 0s linear both ;}
+		@keyframes fadeInDownBig {
+				  0% {
+				    opacity: 0.5;
+				    -webkit-transform: translate3d(0, -1000px, 0);
+				            transform: translate3d(0, -1000px, 0);
+				  }
+
+				  100% {
+				    opacity: 1;
+				    -webkit-transform: none;
+				            transform: none;
+				  }
+				}
+		.fadeInDownss{-webkit-animation:fadeInDownss 1s 1.2s ease both ;}
+		@keyframes fadeInDownss {
+				  0% {
+				    opacity: 0;
+				    transform: translate3d(0, -10px, 0);
+				  }
+
+				  100% {
+				    opacity: 1;
+				    transform: none;
+				  }
+				}
+
+		.fadeInUpBig{-webkit-animation:fadeInUpBig 1s 1s linear both ;}
+		@keyframes fadeInUpBig {
+				  0% {
+				    opacity: 0.5;
+				    -webkit-transform: translate3d(0, 1000px, 0);
+				            transform: translate3d(0, 1000px, 0);
+				  }
+
+				  100% {
+				    opacity: 1;
+				    -webkit-transform: none;
+				            transform: none;
+				  }
+				}
+
+		.fadeInLeftBig{-webkit-animation:fadeInLeftBig 1.5s 0.5s linear both ;}
+		@keyframes fadeInLeftBig {
+				  0% {
+				    opacity: 0.5;
+				    -webkit-transform: translate3d(-1000px, 0, 0);
+				            transform: translate3d(-1000px, 0, 0);
+				  }
+
+				  100% {
+				    opacity: 1;
+				    -webkit-transform: none;
+				            transform: none;
+				  }
+				}
+
+			.fadeInRightBig{-webkit-animation:fadeInRightBig 1.5s 1s ease both ;}
+			.fadeInRightBig2{-webkit-animation:fadeInRightBig 2s 0s ease both ;}
+		@keyframes fadeInRightBig {
+				  0% {
+				    opacity: 0.5;
+				    -webkit-transform: translate3d(1000px, 0, 0);
+				            transform: translate3d(1000px, 0, 0);
+				  }
+
+				  100% {
+				    opacity: 1;
+				    -webkit-transform: none;
+				            transform: none;
+				  }
+				}
+
+				.fadeInRightBigss{-webkit-animation:fadeInRightBigss 1.2s 0s ease both ;}
+		@keyframes fadeInRightBigss {
+				  0% {
+				    opacity: 0;
+				            transform: translate3d(30px, 0, 0);
+				  }
+
+				  100% {
+				    opacity: 1;
+				            transform: none;
+				  }
+				}
+
+.zoomIn{-webkit-animation:zoomIn 1.5s 0s ease both ;}
+			@keyframes zoomIn {
+		  0% {
+		    opacity: 0;
+		    transform: scale3d(.3, .3, .3);
+		  }
+
+		  50% {
+		    opacity: 1;
+		  }
+		}
+
+
+	//需要的动画库-------------------
+
+.Y5-body-bg{background: #ECC34D;}
+.Y5-cons{
+	position: relative;
+	.Y5-bg{
+		img{width: 100%;}
+	}
+
+	.sc-con-1{
+		.sc-1{
+			background: url(../images/Y5-zheng-tit.png) no-repeat;
+			width: 400/2.3*@rem;
+			height: 120/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 98*@rem;
+			left: 62*@rem;
+			.swing;
+		}
+	}
+	.sc-con-2{
+		.sc-1{
+			background: url(../images/sc-2-1.png) no-repeat;
+			width: 116/2*@rem;
+			height: 104/2*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 270*@rem;
+			left: 50*@rem;
+			.fadeIn;
+		}
+		.sc-2{
+			background: url(../images/sc-2-2.png) no-repeat;
+			width: 123/2*@rem;
+			height: 110/2*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 230*@rem;
+			right: 50*@rem;
+			.fadeIn-2;
+		}
+	}
+	.sc-con-3{
+		.sc-1{
+			background: url(../images/sc-3-1.png) no-repeat;
+			width: 140/2.3*@rem;
+			height: 130/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 163*@rem;
+			right: 65*@rem;
+			.fadeIn;
+		}
+		.sc-2{
+			background: url(../images/sc-3-2.png) no-repeat;
+			width: 122/2*@rem;
+			height: 107/2*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 290*@rem;
+			left: 20*@rem;
+			.fadeIn-2;
+		}
+		.sc-3{
+			background: url(../images/sc-3-3.png) no-repeat;
+			width: 119/2*@rem;
+			height: 95/2*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 310*@rem;
+			right: 20*@rem;
+			.fadeIn-3;
+		}
+	}
+	.sc-con-4{
+		.sc-1{
+			background: url(../images/sc-4-1.png) no-repeat;
+			width: 474/2.3*@rem;
+			height: 144/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 163*@rem;
+			left: 60*@rem;
+			.fadeInDownBig;
+		}
+		.sc-2{
+			background: url(../images/sc-4-2.png) no-repeat;
+			width: 750/2.3*@rem;
+			height: 610/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			bottom: 0*@rem;
+			left: 0*@rem;
+			.fadeInUpBig;
+		}
+	}
+	.sc-con-5{
+		.sc-1{
+			background: url(../images/sc-5-1.png) no-repeat;
+			width: 113/2.3*@rem;
+			height: 106/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 170*@rem;
+			right: 70*@rem;
+			.fadeIn;
+		}
+		.sc-2{
+			background: url(../images/sc-5-2.png) no-repeat;
+			width: 139/2.3*@rem;
+			height: 70/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			bottom: 220*@rem;
+			left: 80*@rem;
+			.fadeInLeftBig;
+		}
+		.sc-3{
+			background: url(../images/sc-5-3.png) no-repeat;
+			width: 136/2.3*@rem;
+			height: 68/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			bottom: 220*@rem;
+			right: 70*@rem;
+			.fadeInRightBig;
+		}
+	}
+	.sc-con-6{
+		.sc-1{
+			background: url(../images/sc-6-1.png) no-repeat;
+			width: 130/2.3*@rem;
+			height: 110/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 230*@rem;
+			left: 65*@rem;
+			.fadeIn;
+		}
+		.sc-2{
+			background: url(../images/sc-6-2.png) no-repeat;
+			width: 120/2.3*@rem;
+			height: 70/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			bottom: 110*@rem;
+			right: 50*@rem;
+			.fadeInRightBig;
+		}
+	}
+	.sc-con-7{
+		.sc-1{
+			background: url(../images/sc-7-1.png) no-repeat;
+			width: 638/2.3*@rem;
+			height: 484/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 180*@rem;
+			left: 25*@rem;
+			.fadeInRightBig2;
+		}
+	}
+	.sc-con-8{
+		.sc-1{
+			background: url(../images/sc-8-1.png) no-repeat;
+			width: 415/2.3*@rem;
+			height: 612/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 160*@rem;
+			left: 70*@rem;
+			.zoomIn;
+		}
+	}
+	.sc-con-9{
+		.sc-1{
+			background: url(../images/sc-9-1.png) no-repeat;
+			width: 149/2.3*@rem;
+			height: 44/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 278*@rem;
+			left: 135*@rem;
+			.fadeIn-2;
+		}
+	}
+	.sc-con-10,.sc-con-11,.sc-con-12,.sc-con-13{
+		.sc-1{
+			background: url(../images/sc-10-1.png) no-repeat;
+			width: 600/2.3*@rem;
+			height: 550/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 0*@rem;
+			left: 30*@rem;
+		}
+		.sc-2{
+			background: url(../images/sc-10-2.png) no-repeat;
+			width: 130/2.3*@rem;
+			height: 117/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 270*@rem;
+			left: 70*@rem;
+			.fadeIn;
+		}
+		.sc-3{
+			background: url(../images/sc-10-3.png) no-repeat;
+			width: 46/2.3*@rem;
+			height: 72/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 210*@rem;
+			right: 70*@rem;
+			.fadeInDownss;
+		}
+	}
+	.sc-con-11{
+		.sc-1{
+			background: url(../images/sc-11-1.png) no-repeat;
+			width: 600/2.3*@rem;
+			height: 550/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 0*@rem;
+			left: 30*@rem;
+		}
+	}
+	.sc-con-12{
+		.sc-1{
+			background: url(../images/sc-12-1.png) no-repeat;
+			width: 600/2.3*@rem;
+			height: 550/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 0*@rem;
+			left: 30*@rem;
+		}
+	}
+	.sc-con-13{
+		.sc-1{
+			background: url(../images/sc-13-1.png) no-repeat;
+			width: 600/2.3*@rem;
+			height: 550/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 0*@rem;
+			left: 30*@rem;
+		}
+	}
+	.sc-con-14{
+		.sc-1{
+			background: url(../images/sc-14-1.png) no-repeat;
+			width: 554/2.3*@rem;
+			height: 338/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 20*@rem;
+			left: 30*@rem;
+		}
+		.sc-2{
+			background: url(../images/sc-14-2.png) no-repeat;
+			width: 275/2.3*@rem;
+			height: 277/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 80*@rem;
+			right: 15*@rem;
+			.fadeInRightBigss;
+		}
+	}
+	.sc-con-15{
+		.sc-1{
+			background: url(../images/sc-15-1.png) no-repeat;
+			width: 656/2.3*@rem;
+			height: 302/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 45*@rem;
+			left: 5*@rem;
+		}
+		.sc-2{
+			background: url(../images/sc-15-2.png) no-repeat;
+			width: 275/2.3*@rem;
+			height: 277/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 80*@rem;
+			right: 15*@rem;
+			.fadeInRightBigss;
+		}
+	}
+	.sc-con-16{
+		.sc-1{
+			background: url(../images/sc-16-1.png) no-repeat;
+			width: 634/2.3*@rem;
+			height: 278/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 45*@rem;
+			left: 15*@rem;
+		}
+		.sc-2{
+			background: url(../images/sc-16-2.png) no-repeat;
+			width: 275/2.3*@rem;
+			height: 277/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 80*@rem;
+			right: 15*@rem;
+			.fadeInRightBigss;
+		}
+	}
+	.sc-con-17{
+		.sc-1{
+			background: url(../images/sc-17-1.png) no-repeat;
+			width: 513/2.3*@rem;
+			height: 322/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 20*@rem;
+			left: 10*@rem;
+		}
+		.sc-2{
+			background: url(../images/sc-17-2.png) no-repeat;
+			width: 245/2.3*@rem;
+			height: 262/2.3*@rem;
+			background-size: cover;
+			position: absolute;
+			top: 74*@rem;
+			right:10*@rem;
+			.fadeInRightBigss;
+		}
+	}
+
+	.hbtn{
+		display: block;
+		background:rgba(0, 0, 0, 0);
+		position: absolute;
+	}
+	.btn1-1{
+		width: 200*@rem;
+		height: 40*@rem;
+		bottom: 35*@rem;
+		left: 60*@rem;
+	}
+	.btn2-1{
+		width: 100*@rem;
+		height: 40*@rem;
+		bottom: 35*@rem;
+		left: 50*@rem;
+	}
+	.btn2-2{
+		width: 100*@rem;
+		height: 40*@rem;
+		bottom: 35*@rem;
+		right: 45*@rem;
+	}
+	.btn3-1{
+		width: 160*@rem;
+		height: 35*@rem;
+		bottom: 95*@rem;
+		left: 90*@rem;
+	}
+	.btn3-2{
+		width: 160*@rem;
+		height: 35*@rem;
+		bottom: 40*@rem;
+		left: 90*@rem;
+	}
+	.btn4-1{
+		width: 70*@rem;
+		height: 50*@rem;
+		bottom: 170*@rem;
+		left: 80*@rem
+	}
+	.btn4-2{
+		width: 70*@rem;
+		height: 50*@rem;
+		bottom: 170*@rem;
+		right: 75*@rem
+	}
+	.btn4-3{
+		width: 70*@rem;
+		height: 50*@rem;
+		bottom: 85*@rem;
+		left: 80*@rem
+	}
+	.btn4-4{
+		width: 70*@rem;
+		height: 50*@rem;
+		bottom: 85*@rem;
+		right: 75*@rem
+	}
+	.btn5-1{
+		width: 65*@rem;
+		height: 45*@rem;
+		bottom: 110*@rem;
+		left: 87*@rem
+	}
+	.btn5-2{
+		width: 65*@rem;
+		height: 45*@rem;
+		bottom: 110*@rem;
+		right: 80*@rem
+	}
+	.btn5-3{
+		width: 65*@rem;
+		height: 45*@rem;
+		bottom: 42*@rem;
+		left: 87*@rem
+	}
+	.btn5-4{
+		width: 65*@rem;
+		height: 45*@rem;
+		bottom: 42*@rem;
+		right: 80*@rem
+	}
+	.btn6-1{
+		width: 170*@rem;
+		height: 38*@rem;
+		bottom: 42*@rem;
+		left: 80*@rem;
+	}
+	.btn7-1{
+		width: 170*@rem;
+		height: 38*@rem;
+		bottom: 42*@rem;
+		left: 80*@rem;
+	}
+	.btn14-1{
+		width: 190*@rem;
+		height: 45*@rem;
+		bottom: 30*@rem;
+		left: 80*@rem;
+	}
+
+	.htext{
+		font-weight: bold;
+		position: absolute;
+		font-size: 14*@rem;
+		color: #db6118;
+		transform:rotate(-2deg);
+		span{color: #ba1d21;font-size: 12*@rem;}
+	}
+	.text7-1{
+		top: 215*@rem;
+		left: 150*@rem;
+	}
+	.text7-2{
+		top: 240*@rem;
+		left: 140*@rem;
+	}
+	.text7-3{
+		top: 265*@rem;
+		left: 110*@rem;
+	}
+	.text7-4{
+		top: 290*@rem;
+		left: 110*@rem;
+	}
+	.text7-5{
+		top: 340*@rem;
+		left: 225*@rem;
+	}
+	.text7-6{
+		top: 365*@rem;
+		left: 225*@rem;
+	}
+	.text7-7{
+		top: 390*@rem;
+		left: 105*@rem;
+	}
+}
+
+//Y5 动画页面=================结束========================
+
+
 //免费出租======开始=====
 	.free-rent{
 		position: relative;
