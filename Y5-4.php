@@ -12,7 +12,9 @@
             </div>
             <div class="sc-con-4">
                 <div class="sc-1"></div>
-                <div class="sc-2"></div>
+                <div class="sc-2">
+                    <div class="bx-name">china中国平安</div>
+                </div>
             </div>
             <a href="Y5-5.php" class="hbtn btn4-1"></a>
             <a href="Y5-5.php" class="hbtn btn4-2"></a>

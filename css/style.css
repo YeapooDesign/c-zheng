@@ -4194,6 +4194,16 @@ html#html body {
   right: 2.5rem;
   -webkit-animation: fadeIn 1s 0.8s linear both ;
 }
+.Y5-cons .sc-con-2 .sc-3 {
+  background: url(../images/Y5-zheng-tit.png) no-repeat;
+  width: 7.87401575rem;
+  height: 2.36220472rem;
+  background-size: cover;
+  position: absolute;
+  top: 3.5rem;
+  left: 4.1rem;
+  -webkit-animation: swing 1.3s 0s linear both infinite;
+}
 .Y5-cons .sc-con-3 .sc-1 {
   background: url(../images/sc-3-1.png) no-repeat;
   width: 3.04347826rem;
@@ -4243,6 +4253,12 @@ html#html body {
   bottom: 0rem;
   left: 0rem;
   -webkit-animation: fadeInUpBig 1s 1s linear both ;
+}
+.Y5-cons .sc-con-4 .sc-2 .bx-name {
+  font-size: 0.75rem;
+  color: #E7404F;
+  margin-top: 9.75rem;
+  text-align: center;
 }
 .Y5-cons .sc-con-5 .sc-1 {
   background: url(../images/sc-5-1.png) no-repeat;
