@@ -6,6 +6,11 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body class="Browser Y5-body-bg">
+    <div class="music" id="music">
+        <div class="musicIcon musicStart"></div>
+        <audio id="player" class="player" loop="true" autoplay="autoplay" src="images/midi.mp3" data="images/midi.mp3" sta='play' style='position:absolute'></audio>
+        <span class="note">打开</span>
+    </div>
         <div class="Y5-cons">
             <div class="Y5-bg">
                 <img src="images/Y5-01.jpg" alt="">

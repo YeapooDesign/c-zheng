@@ -1,4 +1,28 @@
 $(function(){
+
+    //声音控制
+    $(".musicIcon").on('click',function(){
+        var Media = document.getElementById("player")
+        if($('.player').attr('sta')=='play'){
+            $('.player').attr('sta','pause');
+            Media.pause();
+            $(this).removeClass('musicStart');
+            // $('.note').show().html('关闭')
+            setTimeout(function(){
+                $('.note').hide()
+            },2000);
+        }
+        else{
+            $('.player').attr('sta','play');
+            $(this).addClass('musicStart');
+            Media.play();
+            // $('.note').show().html('打开')
+            setTimeout(function(){
+                $('.note').hide()
+            },2000);
+        }
+    });
+    
 	//首页图片滚动
 	if($('#banner').length){
 		var slide = new TouchSlider({

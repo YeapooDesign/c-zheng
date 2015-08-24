@@ -3921,6 +3921,43 @@ html#html body {
       -ms-transform: rotate(-1deg);
           transform: rotate(-1deg);
 }
+.music {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 20;
+}
+.music .musicIcon {
+  width: 28px;
+  height: 28px;
+  background: url(../images/music-off.png);
+  -webkit-background-size: cover;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-size: cover;
+}
+.music .musicStart {
+  width: 28px;
+  height: 28px;
+  background: url(../images/music.png);
+  -webkit-background-size: cover;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-size: cover;
+}
+.music .note {
+  color: #fff;
+  width: 25px;
+  position: relative;
+  left: 13px;
+  top: 37px;
+  display: none;
+  font-size: 12px;
+}
 .swing {
   -webkit-animation: swing 1.3s 0s linear both infinite;
 }
@@ -4049,7 +4086,7 @@ html#html body {
   }
 }
 .fadeInLeftBig {
-  -webkit-animation: fadeInLeftBig 1.5s 0.5s linear both ;
+  -webkit-animation: fadeInLeftBig 1.2s 0s ease both ;
 }
 @-webkit-keyframes fadeInLeftBig {
   0% {
@@ -4076,7 +4113,7 @@ html#html body {
   }
 }
 .fadeInRightBig {
-  -webkit-animation: fadeInRightBig 1.5s 1s ease both ;
+  -webkit-animation: fadeInRightBig 1.2s 0.4s ease both ;
 }
 .fadeInRightBig2 {
   -webkit-animation: fadeInRightBig 2s 0s ease both ;
@@ -4278,7 +4315,7 @@ html#html body {
   position: absolute;
   bottom: 11rem;
   left: 4rem;
-  -webkit-animation: fadeInLeftBig 1.5s 0.5s linear both ;
+  -webkit-animation: fadeInLeftBig 1.2s 0s ease both ;
 }
 .Y5-cons .sc-con-5 .sc-3 {
   background: url(../images/sc-5-3.png) no-repeat;
@@ -4288,7 +4325,7 @@ html#html body {
   position: absolute;
   bottom: 11rem;
   right: 3.5rem;
-  -webkit-animation: fadeInRightBig 1.5s 1s ease both ;
+  -webkit-animation: fadeInRightBig 1.2s 0.4s ease both ;
 }
 .Y5-cons .sc-con-6 .sc-1 {
   background: url(../images/sc-6-1.png) no-repeat;
@@ -4308,7 +4345,7 @@ html#html body {
   position: absolute;
   bottom: 5.5rem;
   right: 2.5rem;
-  -webkit-animation: fadeInRightBig 1.5s 1s ease both ;
+  -webkit-animation: fadeInRightBig 1.2s 0.4s ease both ;
 }
 .Y5-cons .sc-con-7 .sc-1 {
   background: url(../images/sc-7-1.png) no-repeat;

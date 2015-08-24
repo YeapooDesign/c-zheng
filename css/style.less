@@ -1444,6 +1444,16 @@ html#html body {height: 100%;}
 
 //Y5 动画页面=================开始========================
 
+	.music{width: 50px;height: 50px;position: absolute; top: 0px; right: 0px; z-index:20;
+      .musicIcon{width: 28px; height: 28px;background: url(../images/music-off.png);-webkit-background-size: cover;position: absolute;
+          top: 12px;right: 12px;background-size: cover;}
+      .musicStart{
+      	width: 28px; height: 28px;background: url(../images/music.png);-webkit-background-size: cover;position: absolute;
+          top: 12px;right: 12px;background-size: cover;
+      }
+      .note{color: #fff; width: 25px; position: relative; left: 13px; top: 37px;display: none;font-size: 12px;}
+  }
+
 	//需要的动画库-------------------
 	.swing{-webkit-animation:swing 1.3s 0s linear both infinite;}
 		@-webkit-keyframes swing {
@@ -1518,7 +1528,7 @@ html#html body {height: 100%;}
 				  }
 				}
 
-		.fadeInLeftBig{-webkit-animation:fadeInLeftBig 1.5s 0.5s linear both ;}
+		.fadeInLeftBig{-webkit-animation:fadeInLeftBig 1.2s 0s ease both ;}
 		@keyframes fadeInLeftBig {
 				  0% {
 				    opacity: 0.5;
@@ -1533,7 +1543,7 @@ html#html body {height: 100%;}
 				  }
 				}
 
-			.fadeInRightBig{-webkit-animation:fadeInRightBig 1.5s 1s ease both ;}
+			.fadeInRightBig{-webkit-animation:fadeInRightBig 1.2s 0.4s ease both ;}
 			.fadeInRightBig2{-webkit-animation:fadeInRightBig 2s 0s ease both ;}
 		@keyframes fadeInRightBig {
 				  0% {
