@@ -4211,6 +4211,16 @@ html#html body {
   left: 3.1rem;
   -webkit-animation: swing 1.3s 0s linear both infinite;
 }
+.Y5-cons .sc-con-1 .sc-2 {
+  background: url(../images/sc-1-1.png) no-repeat;
+  width: 10.13043478rem;
+  height: 12.5rem;
+  background-size: cover;
+  position: absolute;
+  top: 9.25rem;
+  left: 3.1rem;
+  -webkit-animation: zoomIn 1.5s 0s ease both ;
+}
 .Y5-cons .sc-con-2 .sc-1 {
   background: url(../images/sc-2-1.png) no-repeat;
   width: 2.9rem;

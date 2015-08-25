@@ -17,6 +17,7 @@
             </div>
             <div class="sc-con-1">
                 <div class="sc-1"></div>
+                <div class="sc-2"></div>
             </div>
             <a href="Y5-2.php" class="hbtn btn1-1"></a>
         </div>
